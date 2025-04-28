@@ -1,6 +1,6 @@
 import json, os
+from .models import MoodEntry
 from datetime import date
-
 # 定义记录文件路径（这里放在应用目录下，实际可根据需要调整路径）
 DATA_FILE = os.path.join(os.path.dirname(__file__), 'mood_history.json')
 
@@ -14,14 +14,19 @@ def load_records():
         except json.JSONDecodeError:
             return []
 
-def save_record(text, sentiment):
-    """将一条新的记录追加到 JSON 文件。记录包含当前日期、心情文字和情绪。"""
-    records = load_records()
-    record = {
-        'date': date.today().strftime('%Y-%m-%d'),
-        'text': text,
-        'sentiment': sentiment
+
+
+
+def save_record(text, emotion_chinese):
+    # 将中文情绪转换为英文
+    sentiment_map = {
+        '积极': 'positive',
+        '消极': 'negative'
     }
-    records.append(record)
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(records, f, ensure_ascii=False, indent=4)
+    sentiment = sentiment_map.get(emotion_chinese, 'neutral')  # 默认中性
+
+    MoodEntry.objects.create(
+        date=date.today(),
+        sentiment=sentiment,
+        mood_note=text
+    )

@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>情绪树洞 - Mood Tracker</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}?v={% now 'U' %}">
+
 </head>
 <body>
     <div class="container">
@@ -23,24 +24,19 @@
 
         <div class="trend">
             <h2>我的心情趋势</h2>
-            <img src="{% static 'mood_trend.png' %}" alt="心情趋势图">
+            <img src="{% static 'mood_trend.png' %}?v={% now 'U' %}" alt="情绪趋势图">
+
         </div>
 
         <section class="history-section">
             <h2>历史心情记录</h2>
             <div class="history-list">
                 {% if records %}
-                    {% for rec in records %}
-                        <div class="mood-card">
-                            <p class="record-date">{{ rec.date }}</p>
-                            <p class="record-text">{{ rec.text }}</p>
-                            <p class="record-emotion">
-                              {% if rec.sentiment == 'positive' %}
-                                积极
-                              {% else %}
-                                消极
-                              {% endif %}
-                            </p>
+                    {% for record in records %}
+                        <div class="record">
+                            <span class="date">{{ record.date }}</span>
+                            <span class="text">{{ record.text }}</span>
+                            <span class="sentiment">{{ record.sentiment }}</span>  <!-- 统一字段名 -->
                         </div>
                     {% endfor %}
                 {% else %}
