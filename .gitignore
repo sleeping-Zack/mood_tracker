@@ -1,0 +1,25 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+
+# 数据库临时文件
+*.sqlite3
+
+# Mac 系统文件
+.DS_Store
+
+# 其他
+*.bak
