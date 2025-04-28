@@ -4,36 +4,7 @@
         "text": "good",
         "sentiment": "积极"
     },
-    {
-        "date": "2025-04-28",
-        "text": "Feeling normal today",
-        "sentiment": "积极"
-    },
-    {
-        "date": "2025-04-28",
-        "text": "sad",
-        "sentiment": "消极"
-    },
-    {
-        "date": "2025-04-28",
-        "text": "好",
-        "sentiment": "消极"
-    },
-    {
-        "date": "2025-04-28",
-        "text": "好\r\n\r\n",
-        "sentiment": "消极"
-    },
-    {
-        "date": "2025-04-28",
-        "text": "good",
-        "sentiment": "积极"
-    },
-    {
-        "date": "2025-04-28",
-        "text": "negative",
-        "sentiment": "消极"
-    },
+
     {
         "date": "2025-04-28",
         "text": "negative day",
