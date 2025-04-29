@@ -17,8 +17,13 @@ def index(request):
         mood_text = request.POST.get('mood_note')
         if mood_text:
             sentiment_result = analyze_sentiment(mood_text)
-            emotion = '积极' if sentiment_result == 'positive' else '消极'
 
+            if sentiment_result == 'positive':
+                emotion = 'positive'
+            elif sentiment_result == 'negative':
+                emotion = 'negative'
+            else:
+                emotion = 'neutral'  # 处理中性情况
             # 保存记录到数据库
             MoodEntry.objects.create(
                 date=date.today(),

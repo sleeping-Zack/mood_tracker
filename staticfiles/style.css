@@ -1,0 +1,51 @@
+/* 页面整体背景色（米白）和默认文字颜色（淡蓝） */
+body {
+    background-color: #fdf7ec; /* 柔和米白 */
+    color: #5DADE2; /* 淡蓝色文字 */
+    font-family: sans-serif;
+}
+
+/* 历史记录列表容器 */
+.history-list {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* 心情记录卡片 */
+.mood-card {
+    /* 设置背景渐变，让卡片更有层次感 */
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    /* 添加过渡效果，让卡片在鼠标悬停时有动画效果 */
+    transition: all 0.3s ease;
+    /* 设置字体样式，使用更现代的无衬线字体 */
+    font-family: 'Inter', sans-serif;
+}
+
+/* 鼠标悬停时的样式 */
+.mood-card:hover {
+    /* 悬停时卡片微微向上抬起，增加交互感 */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+    
+
+/* 卡片内部的文字样式 */
+.record-date {
+    font-size: 0.9em;
+    color: #888888;
+    margin-bottom: 6px;
+}
+.record-text {
+    font-size: 1.0em;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+.record-emotion {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #5DADE2; /* 与整体文字同样的淡蓝 */
+}
