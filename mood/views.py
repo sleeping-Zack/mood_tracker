@@ -6,34 +6,29 @@ from django.conf import settings
 from .models import MoodEntry
 from django.shortcuts import render, redirect
 from datetime import date
-from .utils import load_records, save_record
 from .sentiment_analysis import analyze_sentiment, generate_motivational_quote
 
-
 def index(request):
-    generate_mood_trend()  # 确保图表生成
-    records = load_records()
-
-    # 初始化语录为 None
+    generate_mood_trend()
+    records = MoodEntry.objects.all().order_by('-date')  # 从数据库获取所有记录，并按日期降序排列
     quote = None
 
     if request.method == 'POST':
         mood_text = request.POST.get('mood_note')
         if mood_text:
-            sentiment_result = analyze_sentiment(mood_text)  # 分析情绪
+            sentiment_result = analyze_sentiment(mood_text)
             emotion = '积极' if sentiment_result == 'positive' else '消极'
 
             # 保存记录到数据库
-            save_record(mood_text, emotion)
-
-            # 根据实际情绪生成语录
-            quote = generate_motivational_quote(sentiment_result)  # 关键修复点
-
+            MoodEntry.objects.create(
+                date=date.today(),
+                text=mood_text,
+                sentiment=emotion
+            )
+            quote = generate_motivational_quote(sentiment_result)
             return redirect('index')
 
-    # 如果是 GET 请求，使用默认或当前情绪生成语录
     if not quote:
-        # 此处可优化为基于最新记录的情绪生成语录
         latest_sentiment = MoodEntry.objects.last().sentiment if MoodEntry.objects.exists() else 'positive'
         quote = generate_motivational_quote(latest_sentiment)
 
@@ -41,8 +36,8 @@ def index(request):
         'records': records,
         'quote': quote,
     })
+
 def generate_mood_trend():
-    # Remove any plt.rcParams['font.sans-serif'] configurations
     entries = MoodEntry.objects.all().order_by('date')
     if not entries:
         return

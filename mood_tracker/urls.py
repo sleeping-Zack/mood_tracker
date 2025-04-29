@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('mood.urls')),  # 将请求交给 mood 应用
+    path('admin/', admin.site.urls),  # 这一行很重要
+    path('', include('mood.urls')),  # 你的应用 urls
 ]
-
