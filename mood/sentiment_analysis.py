@@ -6,7 +6,7 @@ import time
 sentiment_analyzer = pipeline(
     task="sentiment-analysis",
     model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-    revision="714eb0f"  # 指定git commit hash
+    revision="714eb0f"
 )
 def analyze_sentiment(text):
     """
@@ -18,7 +18,7 @@ def analyze_sentiment(text):
     sentiment_score = result[0]['score']
     print(f"[DEBUG] 文本: '{text}' | 标签: {sentiment_label} | 置信度: {sentiment_score:.2f}")
     # 设置置信度阈值
-    confidence_threshold = 0.5
+    confidence_threshold = 0.6
 
     if sentiment_label == 'POSITIVE' and sentiment_score >= confidence_threshold:
         return 'positive'
@@ -59,7 +59,36 @@ def generate_motivational_quote(sentiment):
         "生活偶尔淘气，但对你偏爱有加～",
         "保持这份热情，你会点亮更多角落！",
         "今天的你，是未来最年轻的你——尽情享受吧！",
-        "今天，做一个快乐的人！"
+        "今天，做一个快乐的人！",
+        "前行必有曙光",
+        "志当存高远",
+        "欲成大树莫与草争",
+        "心如花木向阳而生",
+        "栀子花开时 金榜题名",
+        "迎万难 赢万难",
+        "阅书 越山 悦己",
+        "全力以赴奔赴远方",
+        "凡是过去皆为序章",
+        "我的青春不应该是潦草诗",
+        "道阻且长",
+        "得知坦然 失之淡然",
+        "苦难是花开的伏笔",
+        "山高路远独善其身",
+        "遇你如烟花映天下",
+        "你在皆胜万人",
+        "幸福幸福请降临在我手中",
+        "顺其自然 得失所意",
+        "幸与不幸都有尽头",
+        "每一刻都像永远",
+        "小小情绪轻松拿捏不在话下",
+        "度过了冰川期太阳会升起",
+        "心软一秒倒霉万年",
+        "好安静这就是你想要的",
+        "那时候太苦了光是眼泪就够铺路",
+        "不做任何人的代替品",
+        "我们永远独一无二",
+        "别听建议听听自己",
+        "把自己活成一束光"
     ]
     negative_quotes = [
         "我知道你现在很累，但请记得，你从来都不是一个人。",
