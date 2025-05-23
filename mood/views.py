@@ -42,20 +42,31 @@ def index(request):
         'quote': quote,
     })
 
+
 def generate_mood_trend():
     entries = MoodEntry.objects.all().order_by('date')
     if not entries:
         return
 
     dates = [entry.date for entry in entries]
-    sentiments = [1 if entry.sentiment == 'positive' else 0 for entry in entries]
+
+    # 根据情绪类型赋值：positive=1, neutral=0.5, negative=0
+    sentiments = []
+    for entry in entries:
+        if entry.sentiment == 'positive':
+            sentiments.append(1)
+        elif entry.sentiment == 'neutral':
+            sentiments.append(0.5)
+        else:
+            sentiments.append(0)
 
     plt.figure()
     plt.plot(dates, sentiments, marker='o', color='b', linestyle='-', markersize=5)
     plt.xlabel('Date')
-    plt.ylabel('Sentiment (1=positive, 0=negative)')
+    plt.ylabel('Sentiment (1=positive, 0.5=neutral, 0=negative)')
     plt.title('Mood Trend')
     plt.xticks(rotation=45)
+    plt.ylim(-0.1, 1.1)  # 设置y轴范围更美观
     plt.tight_layout()
 
     static_dir = os.path.join(settings.BASE_DIR, 'static')

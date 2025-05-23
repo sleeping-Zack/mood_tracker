@@ -1,19 +1,19 @@
 import os
 import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from get_urls import urls
-
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
 class XiaoHongShuSpider:
     def __init__(self):
         # 初始化 Chrome 浏览器
         self.options = Options()
-        self.driver = webdriver.Chrome(executable_path=r'D:\\py\\chromedriver.exe', options=self.options)
-
+        self.options = webdriver.ChromeOptions()
+        self.driver = webdriver.Chrome(service=Service(r'D:\py\chromedriver.exe'), options=self.options)
         # Cookies 可以通过开发者工具拿到
         self.cookies = {
             "abRequestId": "956891d0-26ec-5285-8322-2b8bc732713f",
