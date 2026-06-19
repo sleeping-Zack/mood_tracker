@@ -1,0 +1,1277 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/xaae8y",
+    "id": "xaae8y",
+    "slide": 1,
+    "layoutId": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F2EA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ed8v6psf",
+      "id": "2",
+      "bbox": [
+        505,
+        0,
+        775,
+        720
+      ],
+      "alt": "image2 style cover",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "82c3ed1e-a572-4931-8e1d-8808ee62001e",
+        "contentType": "image/png",
+        "byteLength": 1955034
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "3",
+      "bbox": [
+        0,
+        0,
+        590,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(247, 242, 234, 0.93333)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "4",
+      "bbox": [
+        0,
+        0,
+        14,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "5",
+      "bbox": [
+        62,
+        54,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "机器学习与实践 · 课程大作业答辩",
+      "textPreview": "机器学习与实践 · 课程大作业答辩",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "机器学习与实践 · 课程大作业答辩"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "机器学习与实践 · 课程大作业答辩",
+          "runs": [
+            {
+              "index": 1,
+              "text": "机器学习与实践 · 课程大作业答辩",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "6",
+      "bbox": [
+        62,
+        130,
+        495,
+        112
+      ],
+      "geometry": "rect",
+      "text": "基于传统机器学习的\n情绪日记五分类系统",
+      "textPreview": "基于传统机器学习的 | 情绪日记五分类系统",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基于传统机器学习的"
+          },
+          {
+            "index": 2,
+            "text": "情绪日记五分类系统"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基于传统机器学习的",
+          "runs": [
+            {
+              "index": 1,
+              "text": "基于传统机器学习的",
+              "fontSize": 34,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "情绪日记五分类系统",
+          "runs": [
+            {
+              "index": 1,
+              "text": "情绪日记五分类系统",
+              "fontSize": 34,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "7",
+      "bbox": [
+        64,
+        262,
+        452,
+        54
+      ],
+      "geometry": "rect",
+      "text": "研究目标：在保留 Django 情绪日记应用的前提下，构建可离线复现、可解释、可落地的中文日记情绪识别内核。",
+      "textPreview": "研究目标：在保留 Django 情绪日记应用的前提下，构建可离线复现、可解释、可落地的中文日记情绪识别内核。",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "fontSize": 14.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "研究目标：在保留 Django"
+          },
+          {
+            "index": 2,
+            "text": "情绪日记应用的前提下，构建可离线复现、可解释、可落地的中文日记"
+          },
+          {
+            "index": 3,
+            "text": "情绪识别内核。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "研究目标：在保留 Django 情绪日记应用的前提下，构建可离线复现、可解释、可落地的中文日记情绪识别内核。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "研究目标：在保留 Django 情绪日记应用的前提下，构建可离线复现、可解释、可落地的中文日记情绪识别内核。",
+              "fontSize": 14.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "8",
+      "bbox": [
+        64,
+        338,
+        112,
+        32
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8F0F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "9",
+      "bbox": [
+        76,
+        344,
+        88,
+        20
+      ],
+      "geometry": "rect",
+      "text": "jieba 分词",
+      "textPreview": "jieba 分词",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "jieba 分词"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "jieba 分词",
+          "runs": [
+            {
+              "index": 1,
+              "text": "jieba 分词",
+              "fontSize": 10.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#16324F",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "10",
+      "bbox": [
+        190,
+        338,
+        150,
+        32
+      ],
+      "geometry": "rect",
+      "fillColor": "#DCEEEA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "11",
+      "bbox": [
+        202,
+        344,
+        126,
+        20
+      ],
+      "geometry": "rect",
+      "text": "TF-IDF 稀疏特征",
+      "textPreview": "TF-IDF 稀疏特征",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TF-IDF 稀疏特征"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TF-IDF 稀疏特征",
+          "runs": [
+            {
+              "index": 1,
+              "text": "TF-IDF 稀疏特征",
+              "fontSize": 10.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#2F7D7A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "12",
+      "bbox": [
+        354,
+        338,
+        112,
+        32
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8DFD4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "13",
+      "bbox": [
+        366,
+        344,
+        88,
+        20
+      ],
+      "geometry": "rect",
+      "text": "LinearSVC",
+      "textPreview": "LinearSVC",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LinearSVC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LinearSVC",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LinearSVC",
+              "fontSize": 10.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#E76F51",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "14",
+      "bbox": [
+        64,
+        392,
+        430,
+        94
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "15",
+      "bbox": [
+        64,
+        392,
+        5,
+        94
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "16",
+      "bbox": [
+        82,
+        408,
+        394,
+        24
+      ],
+      "geometry": "rect",
+      "text": "答辩主线",
+      "textPreview": "答辩主线",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "答辩主线"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "答辩主线",
+          "runs": [
+            {
+              "index": 1,
+              "text": "答辩主线",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "17",
+      "bbox": [
+        82,
+        438,
+        394,
+        36
+      ],
+      "geometry": "rect",
+      "text": "为什么要从外部在线模型迁移到本地五分类？如何证明数据、特征、模型、系统四个环节是闭环而不是孤立实验？",
+      "textPreview": "为什么要从外部在线模型迁移到本地五分类？如何证明数据、特征、模型、系统四个环节是闭环而不是孤立实验？",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "为什么要从外部在线模型迁移到本地五分类？如何证明数据、特征、模"
+          },
+          {
+            "index": 2,
+            "text": "型、系统四个环节是闭环而不是孤立实验？"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "为什么要从外部在线模型迁移到本地五分类？如何证明数据、特征、模型、系统四个环节是闭环而不是孤立实验？",
+          "runs": [
+            {
+              "index": 1,
+              "text": "为什么要从外部在线模型迁移到本地五分类？如何证明数据、特征、模型、系统四个环节是闭环而不是孤立实验？",
+              "fontSize": 12.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "18",
+      "bbox": [
+        72,
+        526,
+        4,
+        58
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "19",
+      "bbox": [
+        86,
+        523,
+        160,
+        34
+      ],
+      "geometry": "rect",
+      "text": "4295",
+      "textPreview": "4295",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4295"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4295",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4295",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "20",
+      "bbox": [
+        86,
+        558,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "五分类标注样本",
+      "textPreview": "五分类标注样本",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "五分类标注样本"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "五分类标注样本",
+          "runs": [
+            {
+              "index": 1,
+              "text": "五分类标注样本",
+              "fontSize": 10,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "21",
+      "bbox": [
+        86,
+        575,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "train/valid/test",
+      "textPreview": "train/valid/test",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "train/valid/test"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "train/valid/test",
+          "runs": [
+            {
+              "index": 1,
+              "text": "train/valid/test",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "22",
+      "bbox": [
+        235,
+        526,
+        4,
+        58
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "23",
+      "bbox": [
+        249,
+        523,
+        160,
+        34
+      ],
+      "geometry": "rect",
+      "text": "3439",
+      "textPreview": "3439",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3439"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3439",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3439",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "24",
+      "bbox": [
+        249,
+        558,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "TF-IDF 特征维度",
+      "textPreview": "TF-IDF 特征维度",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TF-IDF 特征维度"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TF-IDF 特征维度",
+          "runs": [
+            {
+              "index": 1,
+              "text": "TF-IDF 特征维度",
+              "fontSize": 10,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "25",
+      "bbox": [
+        249,
+        575,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "unigram+bigram",
+      "textPreview": "unigram+bigram",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "unigram+bigram"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "unigram+bigram",
+          "runs": [
+            {
+              "index": 1,
+              "text": "unigram+bigram",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "26",
+      "bbox": [
+        398,
+        526,
+        4,
+        58
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "27",
+      "bbox": [
+        412,
+        523,
+        160,
+        34
+      ],
+      "geometry": "rect",
+      "text": "0.9208",
+      "textPreview": "0.9208",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.9208"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.9208",
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.9208",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "28",
+      "bbox": [
+        412,
+        558,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "测试 Macro F1",
+      "textPreview": "测试 Macro F1",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "测试 Macro F1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "测试 Macro F1",
+          "runs": [
+            {
+              "index": 1,
+              "text": "测试 Macro F1",
+              "fontSize": 10,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "29",
+      "bbox": [
+        412,
+        575,
+        190,
+        17
+      ],
+      "geometry": "rect",
+      "text": "LinearSVC",
+      "textPreview": "LinearSVC",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LinearSVC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LinearSVC",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LinearSVC",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "30",
+      "bbox": [
+        60,
+        682,
+        1020,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7D2C8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "31",
+      "bbox": [
+        60,
+        690,
+        820,
+        18
+      ],
+      "geometry": "rect",
+      "text": "封面视觉：image generation / image 2.0 路线；图表证据均来自本项目实验产物",
+      "textPreview": "封面视觉：image generation / image 2.0 路线；图表证据均来自本项目实验产物",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "封面视觉：image generation / image 2.0 路线；图表证据均来自本项目实验产物"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "封面视觉：image generation / image 2.0 路线；图表证据均来自本项目实验产物",
+          "runs": [
+            {
+              "index": 1,
+              "text": "封面视觉：image generation / image 2.0 路线；图表证据均来自本项目实验产物",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "32",
+      "bbox": [
+        1180,
+        684,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

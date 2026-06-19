@@ -1,0 +1,3 @@
+﻿experiment,cluster_to_label,accuracy_after_mapping,macro_f1_after_mapping
+tfidf_kmeans,"{""0"": 1, ""1"": 0}",0.683368,0.612961
+lsa_kmeans,"{""1"": 0, ""0"": 1}",0.699382,0.687596

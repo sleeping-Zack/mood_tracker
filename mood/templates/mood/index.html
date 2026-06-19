@@ -4,225 +4,226 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>情绪树洞 - Mood Tracker</title>
+    <title>情绪日记 - Mood Tracker</title>
     <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.min.css' %}">
     <script src="{% static 'bootstrap/jquery-3.5.1.slim.min.js' %}"></script>
     <script src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
     <style>
         body {
-            background-color: #f9f5ff;
+            background-color: #f7f8fb;
             min-height: 100vh;
             margin: 0;
-            font-family: 'Comic Sans MS', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            color: #243042;
         }
 
-        .container {
-            width: 90%;
-            max-width: 1400px;
-            margin: 50px auto;
-            padding: 40px;
+        .page {
+            width: 92%;
+            max-width: 1120px;
+            margin: 40px auto;
+            padding: 36px;
             background: #ffffff;
-            border-radius: 24px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
-            animation: fadeIn 1s ease;
-        }
-
-        /* 渐入动画 */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            border-radius: 16px;
+            box-shadow: 0 10px 28px rgba(32, 42, 68, 0.08);
         }
 
         h1 {
             text-align: center;
-            font-size: 80px;
-            font-weight: bold;
-            margin-bottom: 40px;
-            color: #ff69b4;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 46px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #2f5f8f;
         }
 
         h2 {
-            text-align: center;
-            font-size: 36px;
-            font-weight: bold;
-            margin-top: 50px;
-            margin-bottom: 30px;
-            color: #7b68ee;
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 36px;
+            margin-bottom: 18px;
+            color: #2f5f8f;
         }
 
         textarea {
-            width: 100%;
-            height: 240px;
-            padding: 24px;
-            font-size: 32px;
-            border: 3px solid #d1d5db;
-            border-radius: 25px;
+            min-height: 160px;
+            font-size: 20px;
+            line-height: 1.6;
+            border: 1px solid #c9d4e2;
+            border-radius: 10px;
             resize: vertical;
-            transition: border-color 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            outline: none;
-            line-height: 1.5;
         }
 
-        textarea:focus {
-            border-color: #3b82f6;
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        .submit-row {
+            margin-top: 16px;
+            text-align: right;
         }
 
-        textarea::placeholder {
-            color: #9ca3af;
+        .btn-primary {
+            background-color: #2f5f8f;
+            border-color: #2f5f8f;
+            font-weight: 700;
+            padding: 10px 24px;
         }
 
-        button {
-            display: inline-block;
-            padding: 24px 50px;
-            background-color: #ff69b4;
-            color: #ffffff;
-            font-size: 36px;
-            font-weight: bold;
-            border: none;
-            border-radius: 999px;
-            cursor: pointer;
-            transition: all 0.3s;
-            margin-top: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        button:hover {
-            background-color: #ff8cb8;
-            transform: scale(1.05);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        button:active {
-            transform: scale(0.95);
-        }
-
-        /* 引言文案 */
         .quote {
-            font-style: italic;
-            font-size: 24px;
-            color: #666;
-            background: #f9f9f9;
-            padding: 20px;
-            border-radius: 16px;
-            margin: 30px 0;
+            font-size: 18px;
+            color: #43546b;
+            background: #eef5f8;
+            padding: 18px 20px;
+            border-radius: 10px;
+            margin: 24px 0;
             text-align: center;
         }
 
-        /* 心情趋势图 */
+        .result-panel {
+            border-left: 5px solid #2f5f8f;
+            background: #f4f8fc;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 24px 0;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 12px 20px;
+            margin-top: 12px;
+        }
+
+        .label {
+            color: #66758a;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #243042;
+        }
+
         .trend img {
             display: block;
             max-width: 100%;
             height: auto;
             margin: 0 auto;
-            border-radius: 16px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        }
-
-        /* 历史心情记录 */
-        .history-list {
-            margin-top: 30px;
+            border-radius: 10px;
+            border: 1px solid #e0e6ef;
         }
 
         .record {
-            background: #fff0f5;
-            border: 1px solid #e0e0e0;
-            border-left: 5px solid #ff69b4;
-            padding: 20px;
-            border-radius: 16px;
-            margin-bottom: 20px;
-            transition: transform 0.2s;
+            border: 1px solid #e1e7f0;
+            border-left: 5px solid #8aa6c1;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            background: #ffffff;
         }
 
-        .record:hover {
-            transform: translateY(-3px);
-        }
-
-        .date {
-            font-size: 16px;
-            color: #888;
+        .record-meta {
+            font-size: 14px;
+            color: #758397;
             margin-bottom: 8px;
         }
 
-        .text {
-            font-size: 18px;
-            color: #333;
-            margin-bottom: 10px;
+        .record-text {
+            font-size: 17px;
+            margin-bottom: 8px;
         }
 
-        .sentiment {
-            font-size: 16px;
-            font-weight: bold;
-            color: #ff69b4;
+        .record-result {
+            font-size: 15px;
+            color: #2f5f8f;
+            font-weight: 700;
         }
 
-        /* 无记录时 */
         .empty-records {
             text-align: center;
-            color: #aaa;
-            font-size: 18px;
-            padding: 30px 0;
+            color: #7b8797;
+            font-size: 17px;
+            padding: 28px 0;
         }
     </style>
 </head>
 
 <body>
-    <div class="d-flex justify-content-center">
-        <div class="container">
+    <main class="page">
+        <h1>情绪日记</h1>
 
-            <h1>🌸 情 绪 树 洞</h1>
-            <br>
-
-            <form method="POST" class="mb-5">
-                {% csrf_token %}
-                <div class="mb-3">
-                    <textarea class="form-control" name="mood_note" placeholder="写下今天的心情..." required></textarea>
-                </div>
-                <br>
-                <div class="text-center">
-                    <button type="submit" class="btn-lg btn-success">记 录 心 情 ✨</button>
-                </div>
-            </form>
-
-            {% if quote %}
-            <div class="quote text-center">
-                "{{ quote }}"
+        <form method="POST" class="mb-4">
+            {% csrf_token %}
+            <textarea class="form-control" name="mood_note" placeholder="写下今天的心情..." required></textarea>
+            <div class="submit-row">
+                <button type="submit" class="btn btn-primary">记录心情</button>
             </div>
-            {% endif %}
+        </form>
 
-            <h2>📈 我的心情趋势</h2>
-            <div class="trend">
-                <img src="{% static 'mood_trend.png' %}?v={% now 'U' %}" alt="情绪趋势图">
-            </div>
-
-            <h2>📚 历史心情记录</h2>
-            <div class="history-list">
-                {% if records %}
-                {% for record in records %}
-                <div class="record">
-                    <div class="date">🗓️ {{ record.date }}</div>
-                    <div class="text">{{ record.text }}</div>
-                    <div class="sentiment">情绪评分：{{ record.sentiment }}</div>
+        {% if latest_result %}
+        <section class="result-panel">
+            <h2>本次分析结果</h2>
+            <div class="result-grid">
+                <div>
+                    <div class="label">预测情绪</div>
+                    <div class="value">{{ latest_result.emotion_text }}</div>
                 </div>
-                {% endfor %}
-                {% else %}
-                <div class="empty-records">
-                    暂无历史记录，快来记录今天的心情吧～
+                <div>
+                    <div class="label">所用模型</div>
+                    <div class="value">{{ latest_result.model_name|default:"local-model-unavailable" }}</div>
                 </div>
-                {% endif %}
+                <div>
+                    <div class="label">分析时间</div>
+                    <div class="value">{{ latest_result.analyzed_at|date:"Y-m-d H:i:s" }}</div>
+                </div>
+                <div>
+                    <div class="label">趋势分值</div>
+                    <div class="value">{{ latest_result.display_score }}</div>
+                </div>
             </div>
+            <div class="mt-3">
+                <div class="label">文本内容</div>
+                <div>{{ latest_result.text }}</div>
+            </div>
+            <div class="mt-3">
+                <div class="label">建议语句</div>
+                <div>{{ latest_result.analysis_message }}</div>
+            </div>
+        </section>
+        {% endif %}
 
+        {% if latest_error %}
+        <section class="result-panel">
+            <h2>本次分析结果</h2>
+            <div>{{ latest_error }}</div>
+        </section>
+        {% endif %}
+
+        {% if quote %}
+        <div class="quote">{{ quote }}</div>
+        {% endif %}
+
+        <h2>心情趋势</h2>
+        <div class="trend">
+            <img src="{% static 'mood_trend.png' %}?v={% now 'U' %}" alt="情绪趋势图">
         </div>
-    </div>
+
+        <h2>历史记录</h2>
+        <div class="history-list">
+            {% if records %}
+                {% for record in records %}
+                <article class="record">
+                    <div class="record-meta">{{ record.date }} · {{ record.analyzed_at|date:"Y-m-d H:i:s" }}</div>
+                    <div class="record-text">{{ record.text }}</div>
+                    <div class="record-result">
+                        情绪：{{ record.emotion_text }}
+                        · 分值：{{ record.display_score }}
+                        {% if record.model_name %} · 模型：{{ record.model_name }}{% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            {% else %}
+                <div class="empty-records">暂无历史记录</div>
+            {% endif %}
+        </div>
+    </main>
 </body>
 
 </html>

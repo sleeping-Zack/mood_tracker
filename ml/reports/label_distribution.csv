@@ -1,0 +1,16 @@
+﻿split,label,count
+test,0,87
+test,1,56
+test,2,117
+test,3,91
+test,4,79
+train,0,697
+train,1,448
+train,2,933
+train,3,724
+train,4,634
+valid,0,87
+valid,1,56
+valid,2,116
+valid,3,90
+valid,4,80

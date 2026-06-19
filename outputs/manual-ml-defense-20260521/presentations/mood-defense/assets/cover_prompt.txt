@@ -1,0 +1,13 @@
+﻿Use case: productivity-visual
+Asset type: PowerPoint defense deck cover image
+Primary request: A premium editorial 16:9 visual for a machine-learning project about a Chinese emotion diary classifier.
+Scene/backdrop: abstract data laboratory with a calm paper-like background, floating sparse matrix points, thin vector lines, and subtle diary-card silhouettes.
+Subject: the idea of transforming personal diary text into five emotion classes through local machine learning; show abstract text fragments, matrix dots, and a small neural/data flow motif without readable words.
+Style/medium: refined 3D editorial illustration mixed with clean data visualization aesthetics, suitable for an academic defense presentation.
+Composition/framing: wide landscape composition, strong negative space on the left for slide title, denser data particles and soft geometric forms on the right.
+Lighting/mood: soft studio lighting, calm but technical, polished university research tone.
+Color palette: deep ink navy, warm off-white, muted teal, restrained coral accents.
+Materials/textures: matte paper, translucent glass-like panels, fine grid lines, sparse matrix dots.
+Text: no text, no letters, no numbers.
+Constraints: no logos, no watermarks, no human faces, no brand marks, no readable UI, no fake charts with labels.
+Avoid: neon cyberpunk, dark sci-fi, clutter, generic stock photo look, random symbols.

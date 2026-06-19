@@ -1,0 +1,430 @@
+﻿text,label,emotion,source,split,notes,clean_text,seg_text
+这样的人怎么可以存在，真的是让我非常反感！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2735,这样的人怎么可以存在真的是让我非常反感,这样 人 怎么 可以 存在 真的 让 非常 反感
+今天加班到十点项目还是没做完，心里压力大得头皮发麻。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),今天加班到十点项目还是没做完心里压力大得头皮发麻。,加班 到 十点 项目 还是 没 做 完 心里 压力 大得 头皮发麻
+为什么没有人站出来制止这一切！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3975,为什么没有人站出来制止这一切,为什么 人站 出来 制止 这 一切
+你的这种态度真是令人厌恶，我完全不想再和你继续下去！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2895,你的这种态度真是令人厌恶我完全不想再和你继续下去,你 这种 态度 真是 令人厌恶 完全 不想 再 你 继续下去
+图书馆有人占座一整天不来，气得我把耳机摔到桌上。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆有人占座一整天不来气得我把耳机摔到桌上。,图书馆 有人 占座 一整天 不来 气得 把 耳机 摔 到 桌上
+电梯坏了扛着主机爬七楼，我真的特别不爽。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,电梯坏了扛着主机爬七楼我真的特别不爽。,电梯 坏 扛着 主机 爬 七楼 真的 特别 不爽
+我的最近表现一直没有达到预期。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=315,我的最近表现一直没有达到预期。,最近 表现 一直 达到 预期
+把邮箱未读邮件清零归档，做事不急不慢，挺踏实的。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,把邮箱未读邮件清零归档做事不急不慢挺踏实的。,把 邮箱 未读 邮件 清零 归档 做事 不急 不慢 挺 踏实
+按课表把下周要交的作业列成清单，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,按课表把下周要交的作业列成清单没什么惊喜也没什么糟心事。,按 课表 把 下周 要交 作业 列 成 清单 没什么 惊喜 没什么 糟 心事
+你继续这样做，谁还敢信任你？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1406,你继续这样做谁还敢信任你,你 继续 这样 做 谁 还 敢 信任 你
+跟室友约好十一点关灯各自休息，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,跟室友约好十一点关灯各自休息算是平常校园里普通的一天。,跟 室友 约 好 十一点 关灯 各自 休息 算是 平常 校园 里 普通 一天
+傍晚去操场慢走了三圈放松腿，效率一般但状态比较稳定，就这样按部就班完成。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,傍晚去操场慢走了三圈放松腿效率一般但状态比较稳定就这样按部就班完成。,傍晚 去 操场 慢走 三圈 放松 腿 效率 一般 但 状态 比较稳定 这样 按部就班 完成
+我昨天不小心把我最喜欢的杯子摔破了，心情很糟糕。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=592,我昨天不小心把我最喜欢的杯子摔破了心情很糟糕。,昨天 不 小心 把 最 喜欢 杯子 摔破 心情 糟糕
+看着自己努力的成果，我的心情也越来越开心了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=2290,看着自己努力的成果我的心情也越来越开心了,看着 自己 努力 成果 心情 越来越 开心
+有时，我们不得不承认一些无法改变的事实，而这些事实让我们无法呼吸。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3583,有时我们不得不承认一些无法改变的事实而这些事实让我们无法呼吸。,有时 我们 不得不 承认 一些 无法 改变 事实 而 这些 事实 让 我们 无法 呼吸
+感谢老师的关心，我现在没事了！,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3330,感谢老师的关心我现在没事了,感谢 老师 关心 现在 没事
+洗澡水温刚刚好也不用排队，整个人轻松了不少，心情挺好。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,洗澡水温刚刚好也不用排队整个人轻松了不少心情挺好。,洗澡 水温 刚刚 好 不用 排队 整个 人 轻松 不少 心情 挺 好
+看着窗外发呆很久，发现自己不知道在想什么，眼泪却掉了。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),看着窗外发呆很久发现自己不知道在想什么眼泪却掉了。,看着 窗外 发呆 久 发现自己 不 知道 想 什么 眼泪 却 掉
+哇！那么你最后有吃完吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=829,哇那么你最后有吃完吗,哇 那么 你 最后 吃 完 吗
+图书馆有人占座一整天不来，明明可以提前说清楚非要临时通知。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆有人占座一整天不来明明可以提前说清楚非要临时通知。,图书馆 有人 占座 一整天 不 来 明明 可以 提前 说 清楚 非 要 临时 通知
+每次都这样，什么时候你才能改变？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1541,每次都这样什么时候你才能改变,每次 这样 什么 时候 你 才能 改变
+我刚收到通知，我被清大录取了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=165,我刚收到通知我被清大录取了,我刚 收到 通知 被 清大 录取
+把拖延两周的任务一口气收尾，做完这些事特别有成就感。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,把拖延两周的任务一口气收尾做完这些事特别有成就感。,把 拖延 两周 任务 一口气 收尾 做 完 这些 事 特别 成就感
+这真的是让我心碎的时刻。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3981,这真的是让我心碎的时刻。,这 真的 让 心碎 时刻
+你到底想怎么样！每次都是我在忍让，这样真的太过分了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2328,你到底想怎么样每次都是我在忍让这样真的太过分了,你 到底 想 怎么样 每次 忍让 这样 真的 太过分
+他竟然这样做，真的是让人反感至极！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1283,他竟然这样做真的是让人反感至极,他 竟然 这样 做 真的 让 人 反感 至极
+我以为时间会让我好起来，可今天好像更难过了。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),我以为时间会让我好起来可今天好像更难过了。,以为 时间 会 让 好 起来 可 好像 更 难过
+这个政客的言论真的是非常令人反感。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=65,这个政客的言论真的是非常令人反感。,这个 政客 言论 真的 非常 令人 反感
+下载了三篇论文放进阅读文件夹，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,下载了三篇论文放进阅读文件夹没什么惊喜也没什么糟心事。,下载 三篇 论文 放进 阅读 文件夹 没什么 惊喜 没什么 糟 心事
+你这样做，根本是在侮辱我们所有人！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1483,你这样做根本是在侮辱我们所有人,你 这样 做 根本 侮辱 我们 所有人
+我真的是受够了他怎么敢提出这样的要求！难道他没有动脑子吗？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=147,我真的是受够了他怎么敢提出这样的要求难道他没有动脑子吗,真的 受够了 他 怎么 敢 提出 这样 要求 难道 他 动脑子 吗
+凌晨两点还在辗转睡不着，好像没人注意到我今天不太好。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,凌晨两点还在辗转睡不着好像没人注意到我今天不太好。,凌晨 两点 还 辗转 睡不着 好像 没 人 注意 到 不太好
+群里明明定了分工有人却一直消失，真想当面质问凭什么这样安排。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,群里明明定了分工有人却一直消失真想当面质问凭什么这样安排。,群里 明明 定 分工 有人 却 一直 消失 真想 当面 质问 凭 什么 这样 安排
+我的老朋友要搬到另一个城市了，我们可能很久不见了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=657,我的老朋友要搬到另一个城市了我们可能很久不见了。,老朋友 要 搬 到 另 城市 我们 可能 久 不见
+看了真的让我心情变差，这种人不值得我去关注！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2722,看了真的让我心情变差这种人不值得我去关注,看 真的 让 心情 变差 这种 人 不 值得 去 关注
+我终于完成了我的第一本小说！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=79,我终于完成了我的第一本小说,终于 完成 第一本 小说
+我知道如何做，我们可以处理的。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3533,我知道如何做我们可以处理的。,知道 如何 做 我们 可以 处理
+今晚宿舍很安静，什么话都不想再说。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,今晚宿舍很安静什么话都不想再说。,今晚 宿舍 安静 什么 话 不想 再说
+我最近和陈思愷的关系变得很紧张。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=248,我最近和陈思愷的关系变得很紧张。,最近 陈思愷 关系 变得 紧张
+每次来到这里，我都会想起那天发生的事情。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3804,每次来到这里我都会想起那天发生的事情。,每次 来到 这里 会 想起 那天 发生 事情
+走在去食堂的路上，突然觉得这一切都没什么意思。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),走在去食堂的路上突然觉得这一切都没什么意思。,走 去 食堂 路上 突然 觉得 这 一切 没什么 意思
+睡前把手机调成勿扰模式放在远处，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,睡前把手机调成勿扰模式放在远处算是平常校园里普通的一天。,睡前 把 手机 调 成 勿扰 模式 放在 远处 算是 平常 校园 里 普通 一天
+我最讨厌这种假惺惺的样子了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1505,我最讨厌这种假惺惺的样子了,最 讨厌 这种 假惺惺 样子
+我想要她正在吃的那道菜。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3502,我想要她正在吃的那道菜。,想要 她 正在 吃 那 道菜
+打印店关门才发现报告没打好，只要一安静下来就更焦虑。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,打印店关门才发现报告没打好只要一安静下来就更焦虑。,打印 店 关门 才 发现 报告 没 打 好 只要 一 安静下来 更 焦虑
+今天的电影挺好的。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=253,今天的电影挺好的。,电影 挺 好
+到底是什么让你变成这样？每次我们有问题，你总是把责任推到我身上，这已经不是第一次了，你觉得这样对得起我吗？我已经受够了，这样的事我再也不会容忍！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3020,到底是什么让你变成这样每次我们有问题你总是把责任推到我身上这已经不是第一次了你觉得这样对得起我吗我已经受够了这样的事我再也不会容忍,到底 什么 让 你 变成 这样 每次 我们 问题 你 总是 把 责任 推到 身上 这 已经 不是 第一次 你 觉得 这样 对得起 吗 已经 受够了 这样 事 再也不会 容忍
+下周开始，天气可能会变冷，记得多穿衣服。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3680,下周开始天气可能会变冷记得多穿衣服。,下周 开始 天气 可能 会 变冷 记得 多 穿衣服
+今天我用3D打印机打印了一台迷你飞行器，竟然真的飞起来了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=625,今天我用3D打印机打印了一台迷你飞行器竟然真的飞起来了,我用 3D 打印机 打印 一台 迷你 飞行器 竟然 真的 飞 起来
+食堂阿姨算错钱还不承认，当场就想发火又只能憋着。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,食堂阿姨算错钱还不承认当场就想发火又只能憋着。,食堂 阿姨 算错 钱 还 不 承认 当场 想 发火 又 只能 憋着
+课程论文截止时间是今晚十二点，越想越慌，手心一直在出汗。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,课程论文截止时间是今晚十二点越想越慌手心一直在出汗。,课程 论文 截止 时间 今晚 十二点 越想 越 慌 手心 一直 出汗
+这种人竟然还有脸出现在我们面前，真是让人生气！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1290,这种人竟然还有脸出现在我们面前真是让人生气,这种 人 竟然 还有 脸 出现 我们 面前 真是 让 人 生气
+路过操场看见很多人在跑步，突然觉得有点孤单。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,路过操场看见很多人在跑步突然觉得有点孤单。,路过 操场 看见 很多 人 跑步 突然 觉得 有点 孤单
+哇！限量版吗？快让我看看！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3124,哇限量版吗快让我看看,哇 限量版 吗 快 让 看看
+你到底在想什么，这件事怎么会这样！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1891,你到底在想什么这件事怎么会这样,你 到底 想 什么 这件 事 怎么 会 这样
+真的是气到不行，你的行为让我无法忍受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2727,真的是气到不行你的行为让我无法忍受,真的 气到 不行 你 行为 让 无法忍受
+那可能是因为你昨天做了很多事情吧？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3458,那可能是因为你昨天做了很多事情吧,那 可能 是因为 你 昨天 做 很多 事情 吧
+路灯下影子拉得很长，眼泪掉下来才发现自己撑不住了。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,路灯下影子拉得很长眼泪掉下来才发现自己撑不住了。,路灯 下 影子 拉得 很长 眼泪 掉下来 才 发现自己 撑不住
+你要我怎么做才能被你看到，这样的努力值不值得！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2311,你要我怎么做才能被你看到这样的努力值不值得,你 要 怎么 做 才能 被 你 看到 这样 努力 值不值得
+我尝试着放下，但每次回想起我们的过去，还是无法停止流泪。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2439,我尝试着放下但每次回想起我们的过去还是无法停止流泪。,尝试 着 放下 但 每次 回 想起 我们 过去 还是 无法 停止 流泪
+我最讨厌的就是你这种人，永远只会说漂亮话。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3840,我最讨厌的就是你这种人永远只会说漂亮话。,最 讨厌 就是 你 这种 人 永远 只会 说 漂亮话
+我真的很难过，这段时间所有的努力似乎都付诸东流，心里的空洞无法填补。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2836,我真的很难过这段时间所有的努力似乎都付诸东流心里的空洞无法填补。,真的 很难过 这 段时间 所有 努力 似乎 付诸东流 心里 空洞 无法 填补
+好的，我有空闲时间，你想看什么电影吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3214,好的我有空闲时间你想看什么电影吗,好 空闲 时间 你 想 看 什么 电影 吗
+我刚刚收到一个超好的消息，忍不住想和你分享！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1355,我刚刚收到一个超好的消息忍不住想和你分享,刚刚 收到 超好 消息 忍不住 想 你 分享
+中午回宿舍睡了二十分钟午觉，这一天过得普普通通，还算可控。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,中午回宿舍睡了二十分钟午觉这一天过得普普通通还算可控。,中午 回 宿舍 睡 二十分钟 午觉 这 一天 过得 普普通通 还 算 可控
+周末室友都不在，那种空落落的感觉一直在。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,周末室友都不在那种空落落的感觉一直在。,周末 室友 不 那种 空落落 一直
+我刚听到一个好消息，高兴极了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1885,我刚听到一个好消息高兴极了,我刚 听到 好消息 高兴 极了
+哇！太棒了！你能压制第二名吗？,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=834,哇太棒了你能压制第二名吗,哇 太棒了 你 能 压制 第二名 吗
+回宿舍开门的瞬间，发现一个人都没有，心一下子沉下去。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),回宿舍开门的瞬间发现一个人都没有心一下子沉下去。,回 宿舍 开门 瞬间 发现 人 心 一下子 沉下去
+你到底在干什么！每次我要求你做的事情都做不好，真是让我愤怒！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3665,你到底在干什么每次我要求你做的事情都做不好真是让我愤怒,你 到底 干什么 每次 要求 你 做 事情 做 不好 真是 让 愤怒
+体育课阳光很好风吹得很舒服，晚上写日记都觉得今天的页面亮堂堂。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,体育课阳光很好风吹得很舒服晚上写日记都觉得今天的页面亮堂堂。,体育课 阳光 好 风吹 得 舒服 晚上 写日记 觉得 页面 亮堂堂
+我终于写完了我的论文，真舒服！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=175,我终于写完了我的论文真舒服,终于 写 完 论文 真 舒服
+那部剧真的很精彩，我们下次一起看吧！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1233,那部剧真的很精彩我们下次一起看吧,那部剧 真的 精彩 我们 下次 一起 看吧
+期中考试 明天就要交了，但我还没准备好。我开始怀疑自己能不能撑下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 明天就要交了但我还没准备好。我开始怀疑自己能不能撑下来。,期中考试 明天 就要 交了 但 还 没 准备 好 开始 怀疑 自己 能 不能 撑 下来
+我刚听到你升职的消息，真的为你感到高兴！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1668,我刚听到你升职的消息真的为你感到高兴,我刚 听到 你 升职 消息 真的 为 你 感到高兴
+我今天终于拿到了我的毕业证书！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=86,我今天终于拿到了我的毕业证书,终于 拿到 毕业证书
+我怎么可能再相信你，这样的背叛我受够了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2325,我怎么可能再相信你这样的背叛我受够了,怎么 可能 再 相信 你 这样 背叛 受够了
+我很高兴今天能见到你！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3965,我很高兴今天能见到你,高兴 能 见到 你
+课程论文截止时间是今晚十二点，担心被老师当众问到细节答不上来。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,课程论文截止时间是今晚十二点担心被老师当众问到细节答不上来。,课程 论文 截止 时间 今晚 十二点 担心 被 老师 当众 问 到 细节 答 不 上来
+当然，每个人都会生气。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=840,当然每个人都会生气。,当然 每个 人 会 生气
+你真的很厉害，我真的是越来越佩服你了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3721,你真的很厉害我真的是越来越佩服你了,你 真的 厉害 真的 越来越 佩服 你
+我盯着屏幕半小时一行字都没写出来，焦虑感越来越重。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),我盯着屏幕半小时一行字都没写出来焦虑感越来越重。,盯 着 屏幕 半小时 一行 字 没 写 出来 焦虑感 越来越重
+我刚看完一集剧情，幸好没有太大的转折。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=1606,我刚看完一集剧情幸好没有太大的转折。,我刚 看 完 一集 剧情 幸好 太大 转折
+我的电脑突然崩溃了，他没有给我备份，我编写的程序全都没了，我快要哭了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=329,我的电脑突然崩溃了他没有给我备份我编写的程序全都没了我快要哭了,电脑 突然 崩溃 他 给 备份 编写 程序 全都 没 快要 哭
+这真是令人愤怒，你打算怎么处理这些评论？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3067,这真是令人愤怒你打算怎么处理这些评论,这 真是 令人 愤怒 你 打算 怎么 处理 这些 评论
+今天和朋友们聚会，大家笑得很开心！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=2213,今天和朋友们聚会大家笑得很开心,朋友 们 聚会 大家 笑 得 开心
+我在这里待了很久，什么也没做。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2085,我在这里待了很久什么也没做。,这里 待 久 什么 没 做
+我们准备的食物似乎不够，感觉有点失策。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=350,我们准备的食物似乎不够感觉有点失策。,我们 准备 食物 似乎 不够 有点 失策
+认真讲完却发现没人认真听，什么话都不想再说。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,认真讲完却发现没人认真听什么话都不想再说。,认真 讲完 却 发现 没 人 认真 听 什么 话 不想 再说
+这太过分了！最近这种事也太常见了吧！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=762,这太过分了最近这种事也太常见了吧,这 太过分 最近 这种 事 太 常见 吧
+他曾是我的全部，如今却成了我的回忆。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1786,他曾是我的全部如今却成了我的回忆。,他 曾 全部 如今 却成 回忆
+我刚刚吃到一个噁心的汉堡，吃下去真的让我差点吐出来。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=150,我刚刚吃到一个噁心的汉堡吃下去真的让我差点吐出来。,刚刚 吃 到 噁 心 汉堡 吃 下去 真的 让 差点 吐出来
+答辩老师据说很严，我担心被现场质疑。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),答辩老师据说很严我担心被现场质疑。,答辩 老师 据说 很严 担心 被 现场 质疑
+我不太擅长这些...,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=575,我不太擅长这些,不 太 擅长 这些
+今天我真的非常累。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=546,今天我真的非常累。,真的 非常 累
+期中考试 本周末要演示，但我还没准备好。我担心组员临时掉链子。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 本周末要演示但我还没准备好。我担心组员临时掉链子。,期中考试 本 周末 要 演示 但 还 没 准备 好 担心 组员 临时 掉 链子
+希望是一件好事，也许是最好的事，没有好事会消亡。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3503,希望是一件好事也许是最好的事没有好事会消亡。,希望 一件 好事 也许 最好 事 好事 会 消亡
+这一切让我感到无助，真的很难过。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=4066,这一切让我感到无助真的很难过。,这 一切 让 感到 无助 真的 很难过
+去打印店顺利打好装订材料，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,去打印店顺利打好装订材料没什么惊喜也没什么糟心事。,去 打印 店 顺利 打 好 装订 材料 没什么 惊喜 没什么 糟 心事
+图书馆找到了最后一个靠窗座位，对生活的满意度悄悄往上挪了一点。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆找到了最后一个靠窗座位对生活的满意度悄悄往上挪了一点。,图书馆 找到 最后 靠窗 座位 对 生活 满意度 悄悄 往上 挪 一点
+哇！这很幸运，通常它总是人满为患，但今天真是太好了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3422,哇这很幸运通常它总是人满为患但今天真是太好了,哇 这 幸运 通常 它 总是 人满为患 但 真是 太好了
+他说下周回来，应该会先去看阿奶。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3703,他说下周回来应该会先去看阿奶。,他 说 下周 回来 应该 会先 去 看 阿奶
+我开始怀疑我是不是真的不重要，那种感觉越想越疼。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),我开始怀疑我是不是真的不重要那种感觉越想越疼。,开始 怀疑 是不是 真的 不 重要 那种 越想 越 疼
+太好了，这真的是我梦寐以求的！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3959,太好了这真的是我梦寐以求的,太好了 这 真的 梦寐以求
+早上八点按时去食堂吃了豆浆油条，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,早上八点按时去食堂吃了豆浆油条算是平常校园里普通的一天。,早上 八点 按时 去 食堂 吃 豆浆 油条 算是 平常 校园 里 普通 一天
+明天第一节就有测验，邮件草稿写了删删了写仍不敢发。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,明天第一节就有测验邮件草稿写了删删了写仍不敢发。,明天 第一节 测验 邮件 草稿 写 删 删 写 仍 不敢 发
+这个周末想去海边走走，你觉得哪个海滩比较好？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=611,这个周末想去海边走走你觉得哪个海滩比较好,这个 周末 想 去 海边 走走 你 觉得 哪个 海滩 比较 好
+那家餐厅的食物真的很难吃，让我整天心情都不好。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=141,那家餐厅的食物真的很难吃让我整天心情都不好。,那 家 餐厅 食物 真的 难吃 让 整天 心情 不好
+明天就是补考日，我担心再挂一次。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),明天就是补考日我担心再挂一次。,明天 就是 补考 日 担心 再 挂 一次
+我已经忍耐了很久，这样下去我真的是忍不住了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3974,我已经忍耐了很久这样下去我真的是忍不住了,已经 忍耐 久 这样 下去 真的 忍不住
+黑豹的演员去世了...,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=31,黑豹的演员去世了,黑豹 演员 去世
+我真的是受够了，为什么每次都这样！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3972,我真的是受够了为什么每次都这样,真的 受够了 为什么 每次 这样
+怎么可以这么无耻，真让我厌恶。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=4095,怎么可以这么无耻真让我厌恶。,怎么 可以 这么 无耻 真 让 厌恶
+你凭什么指责我？你自己做得有多好你不知道吗？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1687,你凭什么指责我你自己做得有多好你不知道吗,你 凭 什么 指责 你 自己 做 得 多 好 你 不 知道 吗
+周末早起把床单被套换洗晾干，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,周末早起把床单被套换洗晾干算是平常校园里普通的一天。,周末 早起 把 床单 被套 换洗 晾干 算是 平常 校园 里 普通 一天
+期末考试 明天就要交了，但我还没准备好。我越想越焦虑，工作效率反而更低。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 明天就要交了但我还没准备好。我越想越焦虑工作效率反而更低。,期末考试 明天 就要 交了 但 还 没 准备 好 越 想 越 焦虑 工作效率 反而 更 低
+机房排队两小时还没轮到座位，复习半天也不知道方向对不对。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,机房排队两小时还没轮到座位复习半天也不知道方向对不对。,机房 排队 两 小时 还 没轮 到 座位 复习 半天 不 知道 方向 对 不 对
+晚上在阳台站了一会儿吹吹风，做事不急不慢，挺踏实的。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,晚上在阳台站了一会儿吹吹风做事不急不慢挺踏实的。,晚上 阳台 站 一会儿 吹 吹风 做事 不急 不慢 挺 踏实
+这是我最不想经历的情况，结果还是发生了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=4067,这是我最不想经历的情况结果还是发生了。,这 最 不想 经历 情况 结果 还是 发生
+每个回忆都是如此痛苦，无法释怀。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1943,每个回忆都是如此痛苦无法释怀。,每个 回忆 如此 痛苦 无法 释怀
+为什么他要离开我？我们不是约定要永远在一起吗？,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1543,为什么他要离开我我们不是约定要永远在一起吗,为什么 他 要 离开 我们 不是 约定 要 永远 一起 吗
+我一直认为无论发生什么，我们都能一起度过，但现在回头看，我才意识到我们的距离越来越远，你的离开让我感到一种无法言喻的痛苦，我不知道如何继续，感觉一切都变得没有意义了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3022,我一直认为无论发生什么我们都能一起度过但现在回头看我才意识到我们的距离越来越远你的离开让我感到一种无法言喻的痛苦我不知道如何继续感觉一切都变得没有意义了。,一直 认为 无论 发生 什么 我们 能 一起 度过 但 现在 回头 看 才 意识 到 我们 距离 越来越 远 你 离开 让 感到 一种 无法 言喻 痛苦 不 知道 如何 继续 一切 变得 意义
+英语口语考核排在周三，脑子里全是还没做完的事。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,英语口语考核排在周三脑子里全是还没做完的事。,英语口语 考核 排 周三 脑子里 全是 还 没 做 完 事
+我一直告诉自己，这是个不可能的任务，但现在我们真的完成了！我很高兴！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3577,我一直告诉自己这是个不可能的任务但现在我们真的完成了我很高兴,一直 告诉 自己 这 个 不 可能 任务 但 现在 我们 真的 完成 高兴
+你确实是一个自私又冷血的人，我对你没有好感！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2714,你确实是一个自私又冷血的人我对你没有好感,你 确实 自私 又 冷血 人 对 你 好感
+我真的不想再回忆起那段过去。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3943,我真的不想再回忆起那段过去。,真的 不想 再 回忆起 那段 过去
+你认为处理这个问题最好是怎么做？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=220,你认为处理这个问题最好是怎么做,你 认为 处理 这个 问题 最好 怎么 做
+是的，这个设备该换新了，不然每次都会出问题。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3072,是的这个设备该换新了不然每次都会出问题。,这个 设备 该换 新 不然 每次 会 出 问题
+室友半夜打游戏键盘敲得震天响，我真的特别不爽。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,室友半夜打游戏键盘敲得震天响我真的特别不爽。,室友 半夜 打游戏 键盘 敲得 震天响 真的 特别 不爽
+代码仓库权限突然被收回，控制不住地把最坏的结果想了一遍又一遍。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,代码仓库权限突然被收回控制不住地把最坏的结果想了一遍又一遍。,代码 仓库 权限 突然 被 收回 控制 不住 地 把 最坏 结果 想 一遍 又 一遍
+体育课阳光很好风吹得很舒服，忍不住嘴角上扬了一整天。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,体育课阳光很好风吹得很舒服忍不住嘴角上扬了一整天。,体育课 阳光 好 风吹 得 舒服 忍不住 嘴角 上扬 一整天
+学分够不够保研线我都不敢算，越算越焦虑。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),学分够不够保研线我都不敢算越算越焦虑。,学分 够不够 保研 线 不敢 算 越算越 焦虑
+期中考试不到一周，我连第一遍复习都没看完。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试不到一周我连第一遍复习都没看完。,期中考试 不到 一周 连 第一遍 复习 没 看 完
+我明明知道一切已经无法回头，却还是忍不住想要挽回。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2419,我明明知道一切已经无法回头却还是忍不住想要挽回。,明明 知道 一切 已经 无法 回头 却 还是 忍不住 想要 挽回
+实习简历还没投出去，怕错过校招最佳时间。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),实习简历还没投出去怕错过校招最佳时间。,实习 简历 还 没 投出去 怕 错过 校招 最佳 时间
+这样的结果不是我想要看到的，你难道不明白吗？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1692,这样的结果不是我想要看到的你难道不明白吗,这样 结果 不是 想要 看到 你 难道 不 明白 吗
+我不想再听这些理由，你给我远离一点！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2340,我不想再听这些理由你给我远离一点,不想 再 听 这些 理由 你 给 远离 一点
+今天网购的东西到货了，结果完全和图片不一样，被骗了，太气人了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=457,今天网购的东西到货了结果完全和图片不一样被骗了太气人了,网购 东西 到货 结果 完全 图片 不 一样 被 骗 太气 人
+这些天我有点忙，但可以应付，尽管工作很多，但还是按照计划一步步完成，没有特别的情绪波动，只是觉得时间过得有点快。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2982,这些天我有点忙但可以应付尽管工作很多但还是按照计划一步步完成没有特别的情绪波动只是觉得时间过得有点快。,这些 天 有点 忙 但 可以 应付 尽管 工作 很多 但 还是 按照 计划 一步步 完成 特别 情绪 波动 只是 觉得 时间 过得 有点 快
+图书馆有人占座一整天不来，真想当面质问凭什么这样安排。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆有人占座一整天不来真想当面质问凭什么这样安排。,图书馆 有人 占座 一整天 不来 真想 当面 质问 凭 什么 这样 安排
+把拖延两周的任务一口气收尾，整个人轻松了不少，心情挺好。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,把拖延两周的任务一口气收尾整个人轻松了不少心情挺好。,把 拖延 两周 任务 一口气 收尾 整个 人 轻松 不少 心情 挺 好
+我真的不再想听你的解释，已经厌倦了这种对待！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2348,我真的不再想听你的解释已经厌倦了这种对待,真的 不再 想 听 你 解释 已经 厌倦 这种 对待
+听起来很有条理，今天有什么特别的计划吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=952,听起来很有条理今天有什么特别的计划吗,听 起来 有条理 什么 特别 计划 吗
+选课系统崩溃我没抢到课，担心被老师当众问到细节答不上来。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,选课系统崩溃我没抢到课担心被老师当众问到细节答不上来。,选课 系统 崩溃 没 抢 到 课 担心 被 老师 当众 问 到 细节 答 不 上来
+好的，天气看起来很不错。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3137,好的天气看起来很不错。,好 天气 看起来 不错
+改了几十行代码还是跑不起来，气死了。,2,生气,manual_campus_angry,valid,campus diary angry / coding-frustration sample (manual),改了几十行代码还是跑不起来气死了。,改了 几十 行 代码 还是 跑 不 起来 气死
+我知道你不会回来了，但我还是会等你。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1707,我知道你不会回来了但我还是会等你。,知道 你 不会 回来 但 还是 会 等 你
+和你一起工作真的很开心，每天都充满笑声。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3786,和你一起工作真的很开心每天都充满笑声。,你 一起 工作 真的 开心 每天 充满 笑声
+校园歌手彩排路过觉得旋律好听，感觉今天运气站在我这边。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,校园歌手彩排路过觉得旋律好听感觉今天运气站在我这边。,校园歌手 彩排 路过 觉得 旋律 好听 运气 站 这边
+我真的无法面对这一切，心里好痛。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=4058,我真的无法面对这一切心里好痛。,真的 无法 面对 这 一切 心里 好痛
+这次旅行真是太开心了，我觉得很放松。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3962,这次旅行真是太开心了我觉得很放松。,这次 旅行 真是太 开心 觉得 放松
+中午回宿舍睡了二十分钟午觉，按计划推进就行，我也不多想。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,中午回宿舍睡了二十分钟午觉按计划推进就行我也不多想。,中午 回 宿舍 睡 二十分钟 午觉 按计划 推进 就行 不 多 想
+我和朋友之间的关系变得有点紧张。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=286,我和朋友之间的关系变得有点紧张。,朋友 之间 关系 变得 有点 紧张
+期末考试 DDL 在三天后，但我还没准备好。我担心组员临时掉链子。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 DDL 在三天后但我还没准备好。我担心组员临时掉链子。,期末考试 DDL 三天 后 但 还 没 准备 好 担心 组员 临时 掉 链子
+刚刚散步的那条小路风景太美了，真希望你也能一起看到！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1363,刚刚散步的那条小路风景太美了真希望你也能一起看到,刚刚 散步 那条 小路 风景 太美 真 希望 你 能 一起 看到
+有人正在网上散布我的个人信息！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=62,有人正在网上散布我的个人信息,有人 正在 网上 散布 个人信息
+晚上在阳台站了一会儿吹吹风，效率一般但状态比较稳定，就这样按部就班完成。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,晚上在阳台站了一会儿吹吹风效率一般但状态比较稳定就这样按部就班完成。,晚上 阳台 站 一会儿 吹 吹风 效率 一般 但 状态 比较稳定 这样 按部就班 完成
+浴室排队半小时还有人插队，今天一整天心情都被这件事毁了。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,浴室排队半小时还有人插队今天一整天心情都被这件事毁了。,浴室 排队 半小时 还有 人 插队 一整天 心情 被 这件 事毁
+晚饭选了清淡窗口吃完散步回宿舍，这一天过得普普通通，还算可控。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,晚饭选了清淡窗口吃完散步回宿舍这一天过得普普通通还算可控。,晚饭 选 清淡 窗口 吃 完 散步 回 宿舍 这 一天 过得 普普通通 还 算 可控
+你竟然敢这样做，真让我感到恶心！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2736,你竟然敢这样做真让我感到恶心,你 竟然 敢 这样 做 真 让 感到 恶心
+中午回宿舍睡了二十分钟午觉，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,中午回宿舍睡了二十分钟午觉没什么惊喜也没什么糟心事。,中午 回 宿舍 睡 二十分钟 午觉 没什么 惊喜 没什么 糟 心事
+这样的结果让我无法接受，我感到很失望。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3984,这样的结果让我无法接受我感到很失望。,这样 结果 让 无法 接受 感到 失望
+我最近读了一些书，感觉都还不错。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2041,我最近读了一些书感觉都还不错。,最近 读 一些 书 还 不错
+我不敢再回头看，那些痛苦的日子永远不会忘记。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1983,我不敢再回头看那些痛苦的日子永远不会忘记。,不敢 再 回头 看 那些 痛苦 日子 永远 不会 忘记
+雨天一个人撑伞去食堂，好像没人注意到我今天不太好。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,雨天一个人撑伞去食堂好像没人注意到我今天不太好。,雨天 人 撑伞 去 食堂 好像 没 人 注意 到 不太好
+我最近正在学习如何编写程序。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=285,我最近正在学习如何编写程序。,最近 正在 学习 如何 编写程序
+期中考试 明早八点要提交，但我还没准备好。我担心做不完，整夜睡不着。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 明早八点要提交但我还没准备好。我担心做不完整夜睡不着。,期中考试 明早 八点 要 提交 但 还 没 准备 好 担心 做 不 完整 夜 睡不着
+按课表把下周要交的作业列成清单，效率一般但状态比较稳定，就这样按部就班完成。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,按课表把下周要交的作业列成清单效率一般但状态比较稳定就这样按部就班完成。,按 课表 把 下周 要交 作业 列 成 清单 效率 一般 但 状态 比较稳定 这样 按部就班 完成
+期末考试 今天晚上必须交，但我还没准备好。我心里特别慌，怕赶不上 DDL。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 今天晚上必须交但我还没准备好。我心里特别慌怕赶不上 DDL。,期末考试 晚上 必须 交但 还 没 准备 好 心里 特别 慌怕 赶不上 DDL
+期末考试 期末周已经开始，但我还没准备好。我控制不住地担心自己挂科。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 期末周已经开始但我还没准备好。我控制不住地担心自己挂科。,期末考试 期末 周 已经 开始 但 还 没 准备 好 控制 不住 地 担心 自己 挂科
+哇！恭喜你！骑摩托车真的很方便，快带我出去玩！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3187,哇恭喜你骑摩托车真的很方便快带我出去玩,哇 恭喜 你 骑 摩托车 真的 方便 快带 出去玩
+每次想起过去的事情，我的心就好像被撕裂了一样。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=4138,每次想起过去的事情我的心就好像被撕裂了一样。,每次 想起 过去 事情 心 好像 被 撕裂 一样
+图书馆关门后一个人走回去，我把头埋进被子里，闷闷地哭了一会儿。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),图书馆关门后一个人走回去我把头埋进被子里闷闷地哭了一会儿。,图书馆 关门 后 人 走 回去 把头 埋进 被子 里 闷闷地 哭 一会儿
+考研倒计时三十天，我做的卷子分数还在波动，不踏实。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),考研倒计时三十天我做的卷子分数还在波动不踏实。,考研 倒计时 三十天 做 卷子 分数 还 波动 不 踏实
+我最近有点担心我的健康状况。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=280,我最近有点担心我的健康状况。,最近 有点 担心 健康状况
+电梯坏了扛着主机爬七楼，真想当面质问凭什么这样安排。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,电梯坏了扛着主机爬七楼真想当面质问凭什么这样安排。,电梯 坏 扛着 主机 爬 七楼 真想 当面 质问 凭 什么 这样 安排
+期末考试 今天晚上必须交，但我还没准备好。我担心自己讲不清楚被同学笑话。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 今天晚上必须交但我还没准备好。我担心自己讲不清楚被同学笑话。,期末考试 晚上 必须 交但 还 没 准备 好 担心 自己 讲 不 清楚 被 同学 笑话
+老师临时改截止时间还不提前说明，今天一整天心情都被这件事毁了。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,老师临时改截止时间还不提前说明今天一整天心情都被这件事毁了。,老师 临时 改 截止 时间 还 不 提前 说明 一整天 心情 被 这件 事毁
+街道上的人流散去，一家家商店关门了。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=1220,街道上的人流散去一家家商店关门了。,街道 上 人 流散 去 一家家 商店 关门
+这种低级行为，我真的是无法忍受，简直让我感到恶心。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2974,这种低级行为我真的是无法忍受简直让我感到恶心。,这种 低级 行为 真的 无法忍受 简直 让 感到 恶心
+他刚刚说，下午要出去一趟，应该晚点才回来。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3678,他刚刚说下午要出去一趟应该晚点才回来。,他 刚刚 说 下午 要 出去 一趟 应该 晚点 才 回来
+这里的空气很差，我一秒都待不下去了。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1813,这里的空气很差我一秒都待不下去了。,这里 空气 很差 一秒 待 不 下去
+我真的受够了，这种行为太恶心了。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=987,我真的受够了这种行为太恶心了。,真的 受够了 这种 行为 太 恶心
+傍晚云彩很好看顺手拍了照片，对生活的满意度悄悄往上挪了一点。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,傍晚云彩很好看顺手拍了照片对生活的满意度悄悄往上挪了一点。,傍晚 云彩 好看 顺手 拍 照片 对 生活 满意度 悄悄 往上 挪 一点
+期中考试 导师催了好几次，但我还没准备好。我心跳快、手在抖，根本静不下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 导师催了好几次但我还没准备好。我心跳快、手在抖根本静不下来。,期中考试 导师 催 好 几次 但 还 没 准备 好 心跳 快 手 抖 根本 静 不 下来
+宿舍楼里到处是说笑声，只有我的房间是安静的。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),宿舍楼里到处是说笑声只有我的房间是安静的。,宿舍楼 里 到处 说笑声 只有 房间 安静
+睡前刷到喜欢的乐队官宣巡演，晚上写日记都觉得今天的页面亮堂堂。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,睡前刷到喜欢的乐队官宣巡演晚上写日记都觉得今天的页面亮堂堂。,睡前 刷 到 喜欢 乐队 官宣 巡演 晚上 写日记 觉得 页面 亮堂堂
+你怎么能忍受被欺负呢？这绝对是不能接受的！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3477,你怎么能忍受被欺负呢这绝对是不能接受的,你 怎么 能 忍受 被 欺负 呢 这 绝对 不能 接受
+今天早上醒来，什么也没特别改变。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=4099,今天早上醒来什么也没特别改变。,早上 醒来 什么 没 特别 改变
+怎么可以这么无礼，真让人讨厌！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=4010,怎么可以这么无礼真让人讨厌,怎么 可以 这么 无礼 真让人 讨厌
+事实上，这没什么大惊小怪。每个人都在做自己应该做的事。这只是日常生活。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3570,事实上这没什么大惊小怪。每个人都在做自己应该做的事。这只是日常生活。,事实上 这 没什么 大惊小怪 每个 人 做 自己 应该 做 事 这 只是 日常生活
+下载了三篇论文放进阅读文件夹，安静地把事情做完就挺好。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,下载了三篇论文放进阅读文件夹安静地把事情做完就挺好。,下载 三篇 论文 放进 阅读 文件夹 安静 地 把 事情 做 完 挺 好
+好啊！你一定不会后悔的！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3410,好啊你一定不会后悔的,好 啊 你 一定 不会 后悔
+今天我和我朋友吵架了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=9,今天我和我朋友吵架了。,朋友 吵架
+我真的无法再继续忍受你的行为！你每次都做出这些令人难以理解的决定，完全不顾及他人的感受，现在，连我也快要崩溃了！你到底在想什么，为什么不能让事情变得简单点？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3015,我真的无法再继续忍受你的行为你每次都做出这些令人难以理解的决定完全不顾及他人的感受现在连我也快要崩溃了你到底在想什么为什么不能让事情变得简单点,真的 无法 再 继续 忍受 你 行为 你 每次 做出 这些 令人 难以 理解 决定 完全 不 顾及 他人 感受 现在 连 快要 崩溃 你 到底 想 什么 为什么 不能 让 事情 变得 简单 点
+你明天有空吗？要不要一起去喝杯咖啡。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=190,你明天有空吗要不要一起去喝杯咖啡。,你 明天 有空 吗 要 不要 一起 去 喝杯 咖啡
+我知道他再也不会回来，但我依然无法放下。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2461,我知道他再也不会回来但我依然无法放下。,知道 他 再也不会 回来 但 依然 无法 放下
+认真讲完却发现没人认真听，好像没人注意到我今天不太好。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,认真讲完却发现没人认真听好像没人注意到我今天不太好。,认真 讲完 却 发现 没 人 认真 听 好像 没 人 注意 到 不太好
+下午实验课按步骤做完提前五分钟离开，按计划推进就行，我也不多想。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,下午实验课按步骤做完提前五分钟离开按计划推进就行我也不多想。,下午 实验课 按 步骤 做 完 提前 五分钟 离开 按计划 推进 就行 不 多 想
+我刚刚去邮局寄了一封信，是给远方朋友的。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3898,我刚刚去邮局寄了一封信是给远方朋友的。,刚刚 去 邮局 寄 一封信 给 远方 朋友
+群里明明定了分工有人却一直消失，明明可以提前说清楚非要临时通知。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,群里明明定了分工有人却一直消失明明可以提前说清楚非要临时通知。,群里 明明 定 分工 有人 却 一直 消失 明明 可以 提前 说 清楚 非 要 临时 通知
+期末考试 今天晚上必须交，但我还没准备好。我担心被老师抓出问题。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 今天晚上必须交但我还没准备好。我担心被老师抓出问题。,期末考试 晚上 必须 交但 还 没 准备 好 担心 被 老师 抓 出 问题
+今天的工作还算顺利。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=236,今天的工作还算顺利。,工作 还 算 顺利
+这种服务态度真是很讨厌，下次换家店比较好。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3336,这种服务态度真是很讨厌下次换家店比较好。,这种 服务态度 真是 讨厌 下次 换家店 比较 好
+下周有个朋友的生日派对，你要一起去吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=454,下周有个朋友的生日派对你要一起去吗,下周 有个 朋友 生日派对 你 要 一起 去 吗
+我只是想安静地过我的生活，不想再有太多变故。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=4019,我只是想安静地过我的生活不想再有太多变故。,只是 想 安静 地过 生活 不想 再有 太 多 变故
+你对政府新政策有何看法？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=440,你对政府新政策有何看法,你 对 政府 新 政策 有何 看法
+太好了！你们聊了什么？,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=938,太好了你们聊了什么,太好了 你们 聊 什么
+我真的很不想再看到这个人，他实在太令人反感了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2739,我真的很不想再看到这个人他实在太令人反感了,真的 不想 再 看到 这个 人 他 实在 太 令人 反感
+唉，今天麻烦事比较多。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3306,唉今天麻烦事比较多。,唉 麻烦事 比较 多
+这一切让我感觉像做梦一样，我很高兴！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=2256,这一切让我感觉像做梦一样我很高兴,这 一切 让 像 做梦 一样 高兴
+组员都各忙各的，整个项目压在我一个人身上，心里压力很大。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),组员都各忙各的整个项目压在我一个人身上心里压力很大。,组员 各忙各 整个 项目 压 人 身上 心里 压力 很大
+食堂阿姨多给了我一个包子，感觉今天运气站在我这边。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,食堂阿姨多给了我一个包子感觉今天运气站在我这边。,食堂 阿姨 多 给 包子 运气 站 这边
+这是你最好的处理方式吗？真让我气愤！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1904,这是你最好的处理方式吗真让我气愤,这 你 最好 处理 方式 吗 真 让 气愤
+你完全不关心我，只顾自己，这让我非常生气！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1066,你完全不关心我只顾自己这让我非常生气,你 完全 不 关心 只顾 自己 这 让 非常 生气
+哇！太厉害了！限量版球鞋很难抢到，你是怎么抢到的！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3229,哇太厉害了限量版球鞋很难抢到你是怎么抢到的,哇 太 厉害 限量版 球鞋 很难 抢 到 你 怎么 抢到
+昨晚的烟火表演太美了，真希望下次还能和你一起看！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1380,昨晚的烟火表演太美了真希望下次还能和你一起看,昨晚 烟火 表演 太美 真 希望 下次 还 能 你 一起 看
+导师邮件里夸了我这一段进度，对生活的满意度悄悄往上挪了一点。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,导师邮件里夸了我这一段进度对生活的满意度悄悄往上挪了一点。,导师 邮件 里 夸 这 一段 进度 对 生活 满意度 悄悄 往上 挪 一点
+这条路很长，但也没有什么好看的。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2078,这条路很长但也没有什么好看的。,这条 路 很长 但 什么 好看
+你怎么能那么不尊重人！这种行为真让我气愤！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=4135,你怎么能那么不尊重人这种行为真让我气愤,你 怎么 能 那么 不 尊重 人 这种 行为 真 让 气愤
+导师刚才又在群里催进度，我心跳很快，根本坐不住。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,导师刚才又在群里催进度我心跳很快根本坐不住。,导师 刚才 又 群里 催 进度 心跳 很快 根本 坐不住
+太好了！能告诉我这是什么奖吗？,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=972,太好了能告诉我这是什么奖吗,太好了 能 告诉 这 什么 奖 吗
+最近天气变好了，你有没有什么推荐的户外活动？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=604,最近天气变好了你有没有什么推荐的户外活动,最近 天气 变好 你 有没有 什么 推荐 户外活动
+听到这样的消息真让我心情大好！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3963,听到这样的消息真让我心情大好,听到 这样 消息 真 让 心情 大好
+认真讲完却发现没人认真听，努力装作没事其实很难过。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,认真讲完却发现没人认真听努力装作没事其实很难过。,认真 讲完 却 发现 没 人 认真 听 努力 装作 没事 其实 很难过
+期中考试 明天就要交了，但我还没准备好。我心跳快、手在抖，根本静不下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 明天就要交了但我还没准备好。我心跳快、手在抖根本静不下来。,期中考试 明天 就要 交了 但 还 没 准备 好 心跳 快 手 抖 根本 静 不 下来
+你认为我应该去看书吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=572,你认为我应该去看书吗,你 认为 应该 去 看书 吗
+我刚刚看到新闻说最近治安不好，我有点怕出门。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=194,我刚刚看到新闻说最近治安不好我有点怕出门。,刚刚 看到 新闻 说 最近 治安 不好 有点 怕 出门
+每次想起这件事，我的心就痛得无法忍受。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3983,每次想起这件事我的心就痛得无法忍受。,每次 想起 这件 事 心 痛得 无法忍受
+我非常感激，这一切让我心情愉快极了。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1040,我非常感激这一切让我心情愉快极了。,非常感激 这 一切 让 心情愉快 极了
+室友半夜打游戏键盘敲得震天响，我已经尽力配合结果还是被拖累。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,室友半夜打游戏键盘敲得震天响我已经尽力配合结果还是被拖累。,室友 半夜 打游戏 键盘 敲得 震天响 已经 尽力 配合 结果 还是 被 拖累
+这些话听起来真让人不舒服，我怎么能接受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=986,这些话听起来真让人不舒服我怎么能接受,这些 话 听 起来 真让人 不 舒服 怎么 能 接受
+洗衣机被别人拿走衣服揉成一团，真想当面质问凭什么这样安排。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,洗衣机被别人拿走衣服揉成一团真想当面质问凭什么这样安排。,洗衣机 被 别人 拿走 衣服 揉成一团 真想 当面 质问 凭 什么 这样 安排
+这太过分了吧！插队真是没有礼貌，店家竟然还不理他，到底在做什么？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3238,这太过分了吧插队真是没有礼貌店家竟然还不理他到底在做什么,这 太过分 吧 插队 真是 礼貌 店家 竟然 还 不理 他 到底 做 什么
+我刚刚中了大奖！今晚我们好好庆祝一下！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3919,我刚刚中了大奖今晚我们好好庆祝一下,刚刚 中 大奖 今晚 我们 好好 庆祝 一下
+项目截止还有 48 小时，但我代码还在改 bug，心里压力很大。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),项目截止还有 48 小时但我代码还在改 bug心里压力很大。,项目 截止 还有 48 小时 但 代码 还 改 bug 心里 压力 很大
+你怎么能这样做！我们在这里努力保护地球！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3493,你怎么能这样做我们在这里努力保护地球,你 怎么 能 这样 做 我们 这里 努力 保护 地球
+晚上在阳台站了一会儿吹吹风，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,晚上在阳台站了一会儿吹吹风没什么惊喜也没什么糟心事。,晚上 阳台 站 一会儿 吹 吹风 没什么 惊喜 没什么 糟 心事
+这次真的是够了，为什么每次都是我在忍受这些无理的要求？你根本不理解我的处境，还一直给我施加压力，我真的受够了！这样的事情怎么能继续下去？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3013,这次真的是够了为什么每次都是我在忍受这些无理的要求你根本不理解我的处境还一直给我施加压力我真的受够了这样的事情怎么能继续下去,这次 真的 够 为什么 每次 忍受 这些 无理 要求 你 根本 不 理解 处境 还 一直 给 施加压力 真的 受够了 这样 事情 怎么 能 继续下去
+你怎么这么冷血，完全不在乎我怎么样！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2389,你怎么这么冷血完全不在乎我怎么样,你 怎么 这么 冷血 完全 不在乎 怎么样
+我已经忍耐很久了，你每次都这样，明明知道我是为了大家好，却一再挑战我的底线，这样的行为让我真是火冒三丈！如果你还不改，我就真的不会再理你了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3012,我已经忍耐很久了你每次都这样明明知道我是为了大家好却一再挑战我的底线这样的行为让我真是火冒三丈如果你还不改我就真的不会再理你了,已经 忍耐 很久 你 每次 这样 明明 知道 为了 大家 好 却 一再 挑战 底线 这样 行为 让 真是 火冒三丈 如果 你 还 不 改 真的 不会 再理 你
+那真是太好了！听到你这么说，我感到很欣慰呢。希望你能一直保持这样的心情哦！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3474,那真是太好了听到你这么说我感到很欣慰呢。希望你能一直保持这样的心情哦,那 真是 太好了 听到 你 这么 说 感到 欣慰 呢 希望 你 能 一直 保持 这样 心情 哦
+你怎么那么自私，什么都不考虑别人的感受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2696,你怎么那么自私什么都不考虑别人的感受,你 怎么 那么 自私 什么 不 考虑 别人 感受
+这种语气真的让我反感，怎么会有这么不礼貌的人！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2892,这种语气真的让我反感怎么会有这么不礼貌的人,这种 语气 真的 让 反感 怎么 会 这么 不 礼貌 人
+今天晚上我又把自己关在被子里哭了一会儿。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),今天晚上我又把自己关在被子里哭了一会儿。,晚上 又 把 自己 关 被子 里 哭 一会儿
+这太过分了！不遵守承诺真是让人失望！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3140,这太过分了不遵守承诺真是让人失望,这 太过分 不 遵守 承诺 真是 让 人 失望
+今天是一个美好的日子，一切都很顺利。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3964,今天是一个美好的日子一切都很顺利。,美好 日子 一切 顺利
+孩子刚学会了骑自行车，看到他那么高兴我也很开心！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1378,孩子刚学会了骑自行车看到他那么高兴我也很开心,孩子 刚 学会 骑 自行车 看到 他 那么 高兴 开心
+太麻烦了吧！但没办法，唉。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=774,太麻烦了吧但没办法唉。,太 麻烦 吧 但 没办法 唉
+我今天在工作上获得了一个大奖，太高兴了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=591,我今天在工作上获得了一个大奖太高兴了,工作 上 获得 大奖 太高兴
+去打印店顺利打好装订材料，效率一般但状态比较稳定，就这样按部就班完成。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,去打印店顺利打好装订材料效率一般但状态比较稳定就这样按部就班完成。,去 打印 店 顺利 打 好 装订 材料 效率 一般 但 状态 比较稳定 这样 按部就班 完成
+我只是想要一个解释，这也太难了吧！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1388,我只是想要一个解释这也太难了吧,只是 想要 解释 这 太难 吧
+没什么好紧张的，这只是小事，应该不会有大问题。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3628,没什么好紧张的这只是小事应该不会有大问题。,没什么 好 紧张 这 只是 小事 应该 不会 有大 问题
+期中考试 今天晚上必须交，但我还没准备好。我心跳快、手在抖，根本静不下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 今天晚上必须交但我还没准备好。我心跳快、手在抖根本静不下来。,期中考试 晚上 必须 交但 还 没 准备 好 心跳 快 手 抖 根本 静 不 下来
+这次旅行真的很棒，我玩得很开心！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1884,这次旅行真的很棒我玩得很开心,这次 旅行 真的 很棒 玩 得 开心
+雨天带了伞走到教室鞋没湿，效率一般但状态比较稳定，就这样按部就班完成。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,雨天带了伞走到教室鞋没湿效率一般但状态比较稳定就这样按部就班完成。,雨天 带 伞 走 到 教室 鞋 没湿 效率 一般 但 状态 比较稳定 这样 按部就班 完成
+我终于存到钱买了一台新相机！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=57,我终于存到钱买了一台新相机,终于 存到 钱 买 一台 新 相机
+打印店老板顺手帮我装订整齐，整个人轻松了不少，心情挺好。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,打印店老板顺手帮我装订整齐整个人轻松了不少心情挺好。,打印 店老板 顺手 帮 装订 整齐 整个 人 轻松 不少 心情 挺 好
+还没有仔细研究，但似乎有一些有趣的变化，我可能需要进一步了解。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3186,还没有仔细研究但似乎有一些有趣的变化我可能需要进一步了解。,还 仔细 研究 但 似乎 一些 有趣 变化 可能 需要 进一步 了解
+我的人工智能助手竟然开始自我学习，甚至自己下单购买东西！,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=621,我的人工智能助手竟然开始自我学习甚至自己下单购买东西,人工智能 助手 竟然 开始 自我 学习 甚至 自己 下单 购买 东西
+这个月的工作不多，大家都正常运作，也没发生什么出乎意料的情况。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2799,这个月的工作不多大家都正常运作也没发生什么出乎意料的情况。,这个 月 工作 不 多 大家 正常 运作 没 发生 什么 出乎意料 情况
+你知道吗？他竟然主动找我聊起来，超惊喜的！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1240,你知道吗他竟然主动找我聊起来超惊喜的,你 知道 吗 他 竟然 主动 找我聊 起来 超 惊喜
+我已经受够了，你为什么还要增加我的负担！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2318,我已经受够了你为什么还要增加我的负担,已经 受够了 你 为什么 还要 增加 负担
+期末考试 明早八点要提交，但我还没准备好。我担心被老师抓出问题。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 明早八点要提交但我还没准备好。我担心被老师抓出问题。,期末考试 明早 八点 要 提交 但 还 没 准备 好 担心 被 老师 抓 出 问题
+我真的不知道该怎么办，感觉一切都失败了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3982,我真的不知道该怎么办感觉一切都失败了。,真的 不 知道 该 怎么办 一切 失败
+这条路走得很长，但越走越觉得孤单。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3735,这条路走得很长但越走越觉得孤单。,这条 路 走 得 很长 但 越 走 越 觉得 孤单
+期中考试 明早八点要提交，但我还没准备好。我心跳快、手在抖，根本静不下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期中考试 明早八点要提交但我还没准备好。我心跳快、手在抖根本静不下来。,期中考试 明早 八点 要 提交 但 还 没 准备 好 心跳 快 手 抖 根本 静 不 下来
+这种说话方式让我感到非常不舒服，你为什么这么做？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2975,这种说话方式让我感到非常不舒服你为什么这么做,这种 说话 方式 让 感到 非常 不 舒服 你 为什么 这么 做
+我刚学会了做蛋糕，真是太有成就感了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=371,我刚学会了做蛋糕真是太有成就感了,我刚 学会 做 蛋糕 真是太 成就感
+毕设中期检查只剩五天，我心跳很快，根本坐不住。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,毕设中期检查只剩五天我心跳很快根本坐不住。,毕设 中期 检查 只 剩 五天 心跳 很快 根本 坐不住
+哇！哪家餐厅？下次我们也一起去试试，听起来很赞！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3250,哇哪家餐厅下次我们也一起去试试听起来很赞,哇 哪家 餐厅 下次 我们 一起 去 试试 听 起来 很赞
+我收到你传来的好消息，真的很高兴！我知道你一定付出了很多努力，今天终于得到了回报，这一切都是你应得的，我真心为你高兴！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3005,我收到你传来的好消息真的很高兴我知道你一定付出了很多努力今天终于得到了回报这一切都是你应得的我真心为你高兴,收到 你 传来 好消息 真的 高兴 知道 你 一定 付出 很多 努力 终于 得到 回报 这 一切都是 你 应得 真心 为 你 高兴
+我非常不高兴王郁洁，他总是把工作推给我！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=140,我非常不高兴王郁洁他总是把工作推给我,非常 不 高兴 王郁洁 他 总是 把 工作 推给
+明天就要期末考试了，复习还差三章，心里特别慌。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),明天就要期末考试了复习还差三章心里特别慌。,明天 就要 期末考试 复习 还 差 三章 心里 特别 慌
+考前一周我开始失眠，怕一觉醒来已经来不及。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),考前一周我开始失眠怕一觉醒来已经来不及。,考前 一周 开始 失眠 怕 一 觉醒 来 已经 来不及
+别担心，你还在成长期。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3274,别担心你还在成长期。,别 担心 你 还 成长期
+打印店老板顺手帮我装订整齐，感觉今天运气站在我这边。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,打印店老板顺手帮我装订整齐感觉今天运气站在我这边。,打印 店老板 顺手 帮 装订 整齐 运气 站 这边
+他的话让我明白，爱情有时那么脆弱。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2476,他的话让我明白爱情有时那么脆弱。,他 的话 让 明白 爱情 有时 那么 脆弱
+怎么会有这样的人，真让人感到恶心！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=982,怎么会有这样的人真让人感到恶心,怎么 会 这样 人 真让人 感到 恶心
+这太过分了！你应该潜伏起来，等他现身！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3374,这太过分了你应该潜伏起来等他现身,这 太过分 你 应该 潜伏 起来 等 他 现身
+你已经考虑好要换成什么样的工作了吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=946,你已经考虑好要换成什么样的工作了吗,你 已经 考虑 好要 换成 什么样 工作 吗
+我正在考虑换工作。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=267,我正在考虑换工作。,正在 考虑 换 工作
+我今天学到了很多新知识。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=279,我今天学到了很多新知识。,学到 很多 新 知识
+即使时间倒流，我也知道无法改变这一切。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1945,即使时间倒流我也知道无法改变这一切。,即使 时间 倒流 知道 无法 改变 这 一切
+那听起来不错，有什么计划吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=807,那听起来不错有什么计划吗,那 听 起来 不错 什么 计划 吗
+洗漱完发现室友床帘里一片安静，眼泪掉下来才发现自己撑不住了。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,洗漱完发现室友床帘里一片安静眼泪掉下来才发现自己撑不住了。,洗漱 完 发现 室友 床帘里 一片 安静 眼泪 掉下来 才 发现自己 撑不住
+为什么好人总是无法过得幸福？,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1416,为什么好人总是无法过得幸福,为什么 好人 总是 无法 过得 幸福
+那听起来不错，有什么特别的事情发生吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=915,那听起来不错有什么特别的事情发生吗,那 听 起来 不错 什么 特别 事情 发生 吗
+代码第一次跑通日志全是绿色的，走路都不自觉地轻快起来。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,代码第一次跑通日志全是绿色的走路都不自觉地轻快起来。,代码 第一次 跑通 日志 全是 绿色 走路 不 自觉 地 轻快 起来
+那些曾经的回忆，现在变得如此遥远，仿佛从未存在过。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2400,那些曾经的回忆现在变得如此遥远仿佛从未存在过。,那些 曾经 回忆 现在 变得 如此 遥远 仿佛 从未 存在 过
+我明天要坐云霄飞车，但我很怕高...,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=74,我明天要坐云霄飞车但我很怕高,明天 要 坐 云霄飞车 但 怕 高
+跟室友约好十一点关灯各自休息，心情平平常常，也没有特别兴奋或低落。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,跟室友约好十一点关灯各自休息心情平平常常也没有特别兴奋或低落。,跟 室友 约 好 十一点 关灯 各自 休息 心情 平平常常 特别 兴奋 或 低落
+好的，这些文件有什么特别需要注意的吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=911,好的这些文件有什么特别需要注意的吗,好 这些 文件 什么 特别 需要 注意 吗
+路边的花刚开，颜色很鲜艳，看起来像是新种的。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=1293,路边的花刚开颜色很鲜艳看起来像是新种的。,路边 花 刚开 颜色 鲜艳 看起来 像是 新种
+代码第一次跑通日志全是绿色的，晚上写日记都觉得今天的页面亮堂堂。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,代码第一次跑通日志全是绿色的晚上写日记都觉得今天的页面亮堂堂。,代码 第一次 跑通 日志 全是 绿色 晚上 写日记 觉得 页面 亮堂堂
+哈哈哈，刚刚那个笑话真的很搞笑，我笑得肚子疼了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3697,哈哈哈刚刚那个笑话真的很搞笑我笑得肚子疼了,哈哈哈 刚刚 那个 笑话 真的 搞笑 笑 得 肚子疼
+当我看到他转身离去，我知道一切已经结束了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2401,当我看到他转身离去我知道一切已经结束了。,当 看到 他 转身 离去 知道 一切 已经 结束
+导师刚才又在群里催进度，只要一安静下来就更焦虑。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,导师刚才又在群里催进度只要一安静下来就更焦虑。,导师 刚才 又 群里 催 进度 只要 一 安静下来 更 焦虑
+群里明明定了分工有人却一直消失，越想越气，胸口堵得慌。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,群里明明定了分工有人却一直消失越想越气胸口堵得慌。,群里 明明 定 分工 有人 却 一直 消失 越想 越气 胸口 堵得 慌
+哇！恭喜你！期待你带我出去玩！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3222,哇恭喜你期待你带我出去玩,哇 恭喜 你 期待 你 带 出去玩
+有人对我的帖子留言了一条攻击性的评论。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=320,有人对我的帖子留言了一条攻击性的评论。,有人 对 帖子 留言 一条 攻击性 评论
+明天是答辩日，今天才发现一个数据有错，整个人很慌。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),明天是答辩日今天才发现一个数据有错整个人很慌。,明天 答辩 日 才 发现 数据 错 整个 人 慌
+上午四节课都坐在中间排认真听讲，心情平平常常，也没有特别兴奋或低落。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,上午四节课都坐在中间排认真听讲心情平平常常也没有特别兴奋或低落。,上午 四节课 坐在 中间 排 认真听讲 心情 平平常常 特别 兴奋 或 低落
+我昨天才知道，我喜欢的书店要结束营业了...,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=599,我昨天才知道我喜欢的书店要结束营业了,昨天 才 知道 喜欢 书店 要 结束 营业
+共享单车被人恶意锁在树干上，越想越气，胸口堵得慌。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,共享单车被人恶意锁在树干上越想越气胸口堵得慌。,共享 单车 被 人 恶意 锁 树干 上越 想 越气 胸口 堵得 慌
+搜了半天 stackoverflow 全是答非所问，真的烦。,2,生气,manual_campus_angry,valid,campus diary angry / coding-frustration sample (manual),搜了半天 stackoverflow 全是答非所问真的烦。,搜 半天 stackoverflow 全是 答非所问 真的 烦
+你每次出现，都让整个气氛变得很糟糕。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1501,你每次出现都让整个气氛变得很糟糕。,你 每次 出现 让 整个 气氛 变得 糟糕
+期末考试 成绩马上要公布，但我还没准备好。我担心被老师抓出问题。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 成绩马上要公布但我还没准备好。我担心被老师抓出问题。,期末考试 成绩 马上 要 公布 但 还 没 准备 好 担心 被 老师 抓 出 问题
+我们坐下来，喝了点茶，聊了些不重要的事情。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=4101,我们坐下来喝了点茶聊了些不重要的事情。,我们 坐下 来 喝 点 茶 聊 些 不 重要 事情
+今天没人和我说一句话，鼻子一酸，觉得自己被忽视了。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),今天没人和我说一句话鼻子一酸觉得自己被忽视了。,没人 说 一句 话 鼻子 一酸 觉得 自己 被忽视
+明天第一节就有测验，控制不住地把最坏的结果想了一遍又一遍。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,明天第一节就有测验控制不住地把最坏的结果想了一遍又一遍。,明天 第一节 测验 控制 不住 地 把 最坏 结果 想 一遍 又 一遍
+PPT 字体调不好，时间在流逝，我越改越烦躁。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),PPT 字体调不好时间在流逝我越改越烦躁。,PPT 字体 调 不好 时间 流逝 越改越 烦躁
+雨天一个人撑伞去食堂，越想越想哭又不好意思出声。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,雨天一个人撑伞去食堂越想越想哭又不好意思出声。,雨天 人 撑伞 去 食堂 越想 越 想哭 又 不好意思 出 声
+我们的故事已经结束，但我还是无法停止思念。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2468,我们的故事已经结束但我还是无法停止思念。,我们 故事 已经 结束 但 还是 无法 停止 思念
+这门课重点全没看，我担心自己撑不过期末周。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),这门课重点全没看我担心自己撑不过期末周。,这门 课 重点 全没看 担心 自己 撑 不过 期末 周
+抢到心仪的选修课名额，和朋友分享完更开心了。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,抢到心仪的选修课名额和朋友分享完更开心了。,抢 到 心仪 选修课 名额 朋友 分享 完 更 开心
+最近压力很大，感觉自己快支撑不住了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=213,最近压力很大感觉自己快支撑不住了。,最近 压力 很大 自己 快 支撑 不住
+你完全不理解什么是尊重，这真的让我非常不满！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2785,你完全不理解什么是尊重这真的让我非常不满,你 完全 不 理解 什么 尊重 这 真的 让 非常 不满
+你说的没错，人生就是要这样开心地过！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1654,你说的没错人生就是要这样开心地过,你 说 没错 人生 就是 要 这样 开心 地过
+你认为学习一门新语言重要吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=68,你认为学习一门新语言重要吗,你 认为 学习 一门 新 语言 重要 吗
+下午实验课按步骤做完提前五分钟离开，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,下午实验课按步骤做完提前五分钟离开算是平常校园里普通的一天。,下午 实验课 按 步骤 做 完 提前 五分钟 离开 算是 平常 校园 里 普通 一天
+期末考试 明早八点要提交，但我还没准备好。我开始怀疑自己能不能撑下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 明早八点要提交但我还没准备好。我开始怀疑自己能不能撑下来。,期末考试 明早 八点 要 提交 但 还 没 准备 好 开始 怀疑 自己 能 不能 撑 下来
+太好了，我终于实现了目标，心情无比激动。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1042,太好了我终于实现了目标心情无比激动。,太好了 终于 实现 目标 心情 无比 激动
+我看了都感到恶心，这样的人怎么会出现在我身边？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2972,我看了都感到恶心这样的人怎么会出现在我身边,看 感到 恶心 这样 人 怎么 会 出现 身边
+我最近参加了一个有趣的营队。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=304,我最近参加了一个有趣的营队。,最近 参加 有趣 营队
+这样的行为真让人不舒服，怎么会有这样的人，真的是让我不想再接触了。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3621,这样的行为真让人不舒服怎么会有这样的人真的是让我不想再接触了。,这样 行为 真让人 不 舒服 怎么 会 这样 人 真的 让 不想 再 接触
+你根本没有为我着想，这样的行为让我太生气了！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2372,你根本没有为我着想这样的行为让我太生气了,你 根本 为 着想 这样 行为 让 太 生气
+我昨天的面试表现不好，感觉没机会了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=386,我昨天的面试表现不好感觉没机会了。,昨天 面试 表现 不好 没 机会
+期末考试 明天就要交了，但我还没准备好。我心跳快、手在抖，根本静不下来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 明天就要交了但我还没准备好。我心跳快、手在抖根本静不下来。,期末考试 明天 就要 交了 但 还 没 准备 好 心跳 快 手 抖 根本 静 不 下来
+组会轮到我汇报还剩两天，只要一安静下来就更焦虑。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,组会轮到我汇报还剩两天只要一安静下来就更焦虑。,组会 轮到 汇报 还 剩 两天 只要 一 安静下来 更 焦虑
+期末考试 下周一就要展示，但我还没准备好。我担心成绩掉得太厉害保不住绩点。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 下周一就要展示但我还没准备好。我担心成绩掉得太厉害保不住绩点。,期末考试 下周一 就要 展示 但 还 没 准备 好 担心 成绩 掉 得 太 厉害 保不住 绩点
+我也看了！最后那个绝杀！太强了！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=3087,我也看了最后那个绝杀太强了,看 最后 那个 绝杀 太强
+我真的很努力，但还是无法挽回。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1415,我真的很努力但还是无法挽回。,真的 努力 但 还是 无法挽回
+组长把最难的部分甩给我一句辛苦了，这种不负责任的做法我很反感。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,组长把最难的部分甩给我一句辛苦了这种不负责任的做法我很反感。,组长 把 最难 部分 甩 给 一句 辛苦 这种 不负责任 做法 反感
+下周有一个演讲，你打算参加吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=398,下周有一个演讲你打算参加吗,下周 演讲 你 打算 参加 吗
+快递拆开正好是需要的那本书，走路都不自觉地轻快起来。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,快递拆开正好是需要的那本书走路都不自觉地轻快起来。,快递 拆开 正好 需要 那本书 走路 不 自觉 地 轻快 起来
+我对这些谎言完全不感兴趣，你有没有考虑过别人的感受？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1204,我对这些谎言完全不感兴趣你有没有考虑过别人的感受,对 这些 谎言 完全 不感兴趣 你 有没有 考虑 过 别人 感受
+和家里打完电话挂掉之后，整个人都很低落，连吃饭都没胃口。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),和家里打完电话挂掉之后整个人都很低落连吃饭都没胃口。,家里 打 完 电话 挂掉 之后 整个 人 低落 连 吃饭 没 胃口
+我真的很喜欢和你在一起，每天都充满快乐！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1657,我真的很喜欢和你在一起每天都充满快乐,真的 喜欢 你 一起 每天 充满 快乐
+认真讲完却发现没人认真听，只想躲进被子里安静一会儿。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,认真讲完却发现没人认真听只想躲进被子里安静一会儿。,认真 讲完 却 发现 没 人 认真 听 只 想 躲 进 被子 里 安静 一会儿
+没有人会理解我的痛苦，我只能自己承受。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1547,没有人会理解我的痛苦我只能自己承受。,人会 理解 痛苦 只能 自己 承受
+你完全不关心我的感受，这怎么可能被接受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=4054,你完全不关心我的感受这怎么可能被接受,你 完全 不 关心 感受 这 怎么 可能 被 接受
+这种行为让人感到恶心，你难道不觉得吗？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1730,这种行为让人感到恶心你难道不觉得吗,这种 行为 让 人 感到 恶心 你 难道 不 觉得 吗
+复习时间不够用了，每翻一页都觉得心跳快。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),复习时间不够用了每翻一页都觉得心跳快。,复习 时间 不够 用 每 翻 一页 觉得 心跳 快
+我想向陈允熙表白，你能帮我吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=541,我想向陈允熙表白你能帮我吗,想 向 陈允熙 表白 你 能 帮 吗
+明明前几天还跑得好好的，今天就开始报错，烦透了。,2,生气,manual_campus_angry,valid,campus diary angry / coding-frustration sample (manual),明明前几天还跑得好好的今天就开始报错烦透了。,明明 前 几天 还 跑 得 好好 开始 报错 烦透了
+打印店关门才发现报告没打好，担心被老师当众问到细节答不上来。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,打印店关门才发现报告没打好担心被老师当众问到细节答不上来。,打印 店 关门 才 发现 报告 没 打 好 担心 被 老师 当众 问 到 细节 答 不 上来
+路上的车不多，开得很顺畅。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=2017,路上的车不多开得很顺畅。,路上 车 不 多 开得 顺畅
+这个周末想骑自行车，你有没有推荐的路线？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=597,这个周末想骑自行车你有没有推荐的路线,这个 周末 想 骑 自行车 你 有没有 推荐 路线
+我的心情真的是太好了，没想到会这么开心。,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1048,我的心情真的是太好了没想到会这么开心。,心情 真的 太好了 没想到 会 这么 开心
+图书馆关门后一个人走回去，突然就想哭，没人理解我。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),图书馆关门后一个人走回去突然就想哭没人理解我。,图书馆 关门 后 人 走 回去 突然 想哭 没 人 理解
+期末考试 期末周已经开始，但我还没准备好。我担心自己讲不清楚被同学笑话。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),期末考试 期末周已经开始但我还没准备好。我担心自己讲不清楚被同学笑话。,期末考试 期末 周 已经 开始 但 还 没 准备 好 担心 自己 讲 不 清楚 被 同学 笑话
+晚上一个人坐在自习室，鼻子一酸，觉得自己被忽视了。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),晚上一个人坐在自习室鼻子一酸觉得自己被忽视了。,晚上 人 坐在 自习室 鼻子 一酸 觉得 自己 被忽视
+这种情况完全无法再忍受，请不要再出现！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2306,这种情况完全无法再忍受请不要再出现,这种 情况 完全 无法 再 忍受 请 不要 再 出现
+这个案件并不复杂，关键在于谁首先说了谎。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3831,这个案件并不复杂关键在于谁首先说了谎。,这个 案件 并 不 复杂 关键在于 谁 首先 说 谎
+这很危险啊！找他们公司反映一下。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3245,这很危险啊找他们公司反映一下。,这 危险 啊 找 他们 公司 反映 一下
+昨晚我独自一人在家，突然断电，整个人都吓坏了。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=507,昨晚我独自一人在家突然断电整个人都吓坏了。,昨晚 独自一人 在家 突然 断电 整个 人 吓坏
+我完全不喜欢这样的局面，真的是令人难以忍受。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3561,我完全不喜欢这样的局面真的是令人难以忍受。,完全 不 喜欢 这样 局面 真的 令人 难以忍受
+好的，周末刚好有空，走吧！,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3179,好的周末刚好有空走吧,好 周末 刚好 有空 走 吧
+哇！难道司机都不会打扫吗？好恶心啊！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3199,哇难道司机都不会打扫吗好恶心啊,哇 难道 司机 不会 打扫 吗 好 恶心 啊
+这杯咖啡有点凉了，我要去换一杯热的。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=1487,这杯咖啡有点凉了我要去换一杯热的。,这杯 咖啡 有点 凉 要 去 换 一杯 热
+我走过这条街已经不止一次，每次经过时，似乎都能看到差不多的景象，没什么变化。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=3640,我走过这条街已经不止一次每次经过时似乎都能看到差不多的景象没什么变化。,走过 这条 街 已经 不止一次 每次 经过 时 似乎 能 看到 差不多 景象 没什么 变化
+图书馆找到了最后一个靠窗座位，感觉今天运气站在我这边。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆找到了最后一个靠窗座位感觉今天运气站在我这边。,图书馆 找到 最后 靠窗 座位 运气 站 这边
+我只是不希望他失败。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=568,我只是不希望他失败。,只是 不 希望 他 失败
+项目 DDL 在三天后，但我一行核心代码都还没动。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),项目 DDL 在三天后但我一行核心代码都还没动。,项目 DDL 三天 后 但 一行 核心 代码 都还没 动
+周末室友都不在，眼泪掉下来才发现自己撑不住了。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,周末室友都不在眼泪掉下来才发现自己撑不住了。,周末 室友 不 眼泪 掉下来 才 发现自己 撑不住
+那些曾经的梦想和希望，在现实面前已经变得不堪一击，我尝试努力，但每当想起过去，心中就涌起一股强烈的悲伤感，原来，幸福真的只是短暂的，我再也无法找到那种温暖的感觉。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3026,那些曾经的梦想和希望在现实面前已经变得不堪一击我尝试努力但每当想起过去心中就涌起一股强烈的悲伤感原来幸福真的只是短暂的我再也无法找到那种温暖的感觉。,那些 曾经 梦想 希望 现实 面前 已经 变得 不堪一击 尝试 努力 但 每当 想起 过去 心中 涌起 一股 强烈 悲伤 感 原来 幸福 真的 只是 短暂 再也 无法 找到 那种 温暖
+你怎么能这样对她？她根本不应该承受这些！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3879,你怎么能这样对她她根本不应该承受这些,你 怎么 能 这样 对 她 她 根本 不 应该 承受 这些
+这个周末要不要一起去公园散步？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=180,这个周末要不要一起去公园散步,这个 周末 要 不要 一起 去 公园 散步
+太好了！这是什么食谱？可以分享一下吗？,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=948,太好了这是什么食谱可以分享一下吗,太好了 这是 什么 食谱 可以 分享 一下 吗
+刷完朋友圈关了屏幕，那种空落落的感觉一直在。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,刷完朋友圈关了屏幕那种空落落的感觉一直在。,刷 完 朋友圈 关 屏幕 那种 空落落 一直
+导师邮件里夸了我这一段进度，和朋友分享完更开心了。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,导师邮件里夸了我这一段进度和朋友分享完更开心了。,导师 邮件 里 夸 这 一段 进度 朋友 分享 完 更 开心
+我同意！真的很不舒服。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=753,我同意真的很不舒服。,同意 真的 不 舒服
+中秋节要不要烤肉,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=550,中秋节要不要烤肉,中秋节 要 不要 烤肉
+演示前一天被告知需求又改了，真想当面质问凭什么这样安排。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,演示前一天被告知需求又改了真想当面质问凭什么这样安排。,演示 前一天 被 告知 需求 又 改 真想 当面 质问 凭 什么 这样 安排
+实验室门禁卡丢了进不去，脑子里全是还没做完的事。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,实验室门禁卡丢了进不去脑子里全是还没做完的事。,实验室 门禁卡 丢 进不去 脑子里 全是 还 没 做 完 事
+这样真的很让人生气，你有考虑过向管理层反映这些问题吗？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=967,这样真的很让人生气你有考虑过向管理层反映这些问题吗,这样 真的 让 人 生气 你 考虑 过 向 管理层 反映 这些 问题 吗
+这是我第一次感受到，原来心碎是如此疼痛。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1422,这是我第一次感受到原来心碎是如此疼痛。,这 第一次 感受 到 原来 心碎 如此 疼痛
+翻开相册看到去年的合照，努力装作没事其实很难过。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,翻开相册看到去年的合照努力装作没事其实很难过。,翻开 相册 看到 去年 合照 努力 装作 没事 其实 很难过
+这段音乐听起来让人心情特别愉快，你也听听看！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1372,这段音乐听起来让人心情特别愉快你也听听看,这 段 音乐 听 起来 让 人 心情 特别 愉快 你 听听看
+真的看了让我反胃，这种行为根本无法接受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2770,真的看了让我反胃这种行为根本无法接受,真的 看 让 反胃 这种 行为 根本无法 接受
+自习室坐到关门才离开，心里闷闷的，提不起劲。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,自习室坐到关门才离开心里闷闷的提不起劲。,自习室 坐 到 关门 才 离开 心里 闷闷 提不起 劲
+图书馆有人占座一整天不来，我真的特别不爽。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,图书馆有人占座一整天不来我真的特别不爽。,图书馆 有人 占座 一整天 不来 真的 特别 不爽
+给家里打完视频挂了电话，什么话都不想再说。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,给家里打完视频挂了电话什么话都不想再说。,给 家里 打 完 视频 挂 电话 什么 话 不想 再说
+按课表把下周要交的作业列成清单，按计划推进就行，我也不多想。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,按课表把下周要交的作业列成清单按计划推进就行我也不多想。,按 课表 把 下周 要交 作业 列 成 清单 按计划 推进 就行 不 多 想
+机房排队两小时还没轮到座位，只要一安静下来就更焦虑。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,机房排队两小时还没轮到座位只要一安静下来就更焦虑。,机房 排队 两 小时 还 没轮 到 座位 只要 一 安静下来 更 焦虑
+今天本来很期待的活动被取消了，一个人在宿舍坐了很久。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),今天本来很期待的活动被取消了一个人在宿舍坐了很久。,本来 期待 活动 被 取消 人 宿舍 坐 久
+看到这种场面，我真的只想马上离开。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1500,看到这种场面我真的只想马上离开。,看到 这种 场面 真的 只想 马上 离开
+按课表把下周要交的作业列成清单，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,按课表把下周要交的作业列成清单算是平常校园里普通的一天。,按 课表 把 下周 要交 作业 列 成 清单 算是 平常 校园 里 普通 一天
+我觉得最近大家都冷淡，没人理我。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=148,我觉得最近大家都冷淡没人理我。,觉得 最近 大家 冷淡 没 人理
+每次见到你，我就感到不舒服，完全不想和你说话！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2707,每次见到你我就感到不舒服完全不想和你说话,每次 见到 你 感到 不 舒服 完全 不想 你 说话
+睡前刷到喜欢的乐队官宣巡演，终于可以把心事放下好好睡一觉。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,睡前刷到喜欢的乐队官宣巡演终于可以把心事放下好好睡一觉。,睡前 刷 到 喜欢 乐队 官宣 巡演 终于 可以 把 心事 放下 好好 睡一觉
+周会的 PPT 还没整理结论，我怕被点出来。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),周会的 PPT 还没整理结论我怕被点出来。,周会 PPT 还 没 整理 结论 我怕 被 点 出来
+有人说我胖！该死！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=10,有人说我胖该死,有人 说 胖 该死
+曾经有那么多希望，但现在看来，所有的希望都像是泡沫一样消失了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=3610,曾经有那么多希望但现在看来所有的希望都像是泡沫一样消失了。,曾经 那么 多 希望 但 现在 看来 所有 希望 像是 泡沫 一样 消失
+这份礼物真的是最好的惊喜，谢谢你！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=1381,这份礼物真的是最好的惊喜谢谢你,这份 礼物 真的 最好 惊喜 谢谢 你
+我真的不想再待在这里了，每一天都像是一场噩梦。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=3528,我真的不想再待在这里了每一天都像是一场噩梦。,真的 不想 再待 这里 每 一天 像是 一场 噩梦
+最近几天一直有诈骗电话打来，我有点担心个人信息泄露了。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=458,最近几天一直有诈骗电话打来我有点担心个人信息泄露了。,最近 几天 一直 诈骗 电话 打来 有点 担心 个人信息 泄露
+晚饭选了清淡窗口吃完散步回宿舍，没什么惊喜也没什么糟心事。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,晚饭选了清淡窗口吃完散步回宿舍没什么惊喜也没什么糟心事。,晚饭 选 清淡 窗口 吃 完 散步 回 宿舍 没什么 惊喜 没什么 糟 心事
+调了一晚上 bug 还是没解决，真的很烦。,2,生气,manual_campus_angry,valid,campus diary angry / coding-frustration sample (manual),调了一晚上 bug 还是没解决真的很烦。,调 一 晚上 bug 还是 没 解决 真的 很烦
+你相信吗？我刚刚收到一封来自陌生人的感谢信！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=630,你相信吗我刚刚收到一封来自陌生人的感谢信,你 相信 吗 刚刚 收到 一封 来自 陌生人 感谢信
+这件衣服的材质摸起来不怎么好，完全不想穿。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=221,这件衣服的材质摸起来不怎么好完全不想穿。,这件 衣服 材质 摸 起来 不怎么 好 完全 不想 穿
+选课系统崩溃我没抢到课，怕拖累组员又怕自己一个人扛不住。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,选课系统崩溃我没抢到课怕拖累组员又怕自己一个人扛不住。,选课 系统 崩溃 没 抢 到 课怕 拖累 组员 又 怕 自己 人 扛不住
+给家里打完视频挂了电话，鼻子一酸就又把情绪压下去了。,0,难过,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,给家里打完视频挂了电话鼻子一酸就又把情绪压下去了。,给 家里 打 完 视频 挂 电话 鼻子 一酸 又 把 情绪 压下去
+图书馆关门后一个人走回去，心里堵得难受，什么都不想做。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),图书馆关门后一个人走回去心里堵得难受什么都不想做。,图书馆 关门 后 人 走 回去 心里 堵得 难受 什么 不想 做
+小组讨论一次就把分工敲定，晚上写日记都觉得今天的页面亮堂堂。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,小组讨论一次就把分工敲定晚上写日记都觉得今天的页面亮堂堂。,小组讨论 一次 把 分工 敲定 晚上 写日记 觉得 页面 亮堂堂
+今天工作结束后，我就回家休息了。,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=1140,今天工作结束后我就回家休息了。,工作 结束 后 回家 休息
+这样的人怎么能在这个地方存在，真的是让我无法忍受！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=2743,这样的人怎么能在这个地方存在真的是让我无法忍受,这样 人 怎么 能 这个 地方 存在 真的 让 无法忍受
+和你在一起的每一天，都让我感到无比快乐！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=2203,和你在一起的每一天都让我感到无比快乐,你 一起 每 一天 让 感到 无比 快乐
+为什么每次都是我为你担心，这种结果不公平！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2367,为什么每次都是我为你担心这种结果不公平,为什么 每次 为 你 担心 这种 结果 不 公平
+我们昨晚玩了一个超级有趣的桌游！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=307,我们昨晚玩了一个超级有趣的桌游,我们 昨晚 玩 超级 有趣 桌游
+代码第一次跑通日志全是绿色的，整个人轻松了不少，心情挺好。,4,开心,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,代码第一次跑通日志全是绿色的整个人轻松了不少心情挺好。,代码 第一次 跑通 日志 全是 绿色 整个 人 轻松 不少 心情 挺 好
+真是太夸张了。这种质量根本在欺骗消费者。我们应该去投诉。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=759,真是太夸张了。这种质量根本在欺骗消费者。我们应该去投诉。,真是太 夸张 这种 质量 根本 欺骗 消费者 我们 应该 去 投诉
+认真讲完一段话，发现没人在听，心里凉了一下。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),认真讲完一段话发现没人在听心里凉了一下。,认真 讲完 一段话 发现 没人 听 心里 凉 一下
+即使我努力去忘记，那份痛苦仍旧挥之不去。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=1086,即使我努力去忘记那份痛苦仍旧挥之不去。,即使 努力 去 忘记 那 份 痛苦 仍旧 挥之不去
+你知道吗？有时我们做不到自己想做的事，真是太难过了。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=4063,你知道吗有时我们做不到自己想做的事真是太难过了。,你 知道 吗 有时 我们 做 不到 自己 想 做 事 真是太 难过
+你根本不配让我再为你付出那么多！,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=2375,你根本不配让我再为你付出那么多,你 根本 不配 让 再 为 你 付出 那么 多
+曾经的甜言蜜语，现在听起来只剩下刺痛。,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=2426,曾经的甜言蜜语现在听起来只剩下刺痛。,曾经 甜言蜜语 现在 听 起来 只 剩下 刺痛
+老师下午要检查实验进度，我现在脑子一片空白。,1,焦虑,manual_campus_anxious,valid,campus diary anxiety sample (manual / template),老师下午要检查实验进度我现在脑子一片空白。,老师 下午 要 检查 实验 进度 现在 脑子 一片空白
+还需要说更多吗？,3,平静,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=平静; original_split=train; row=801,还需要说更多吗,还 需要 说 更 多 吗
+这种事发生在我身上，简直是个噩梦。,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=厌恶; original_split=train; row=1578,这种事发生在我身上简直是个噩梦。,这种 事 发生 身上 简直 个 噩梦
+室友借了数据线两周不还，我已经尽力配合结果还是被拖累。,2,生气,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,室友借了数据线两周不还我已经尽力配合结果还是被拖累。,室友 借 数据线 两周 不 还 已经 尽力 配合 结果 还是 被 拖累
+你这样不负责任的态度，你是怎么想的？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=1247,你这样不负责任的态度你是怎么想的,你 这样 不负责任 态度 你 怎么 想
+看到我们这样相聚，我感到无比的幸福！,4,开心,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=开心; original_split=train; row=2229,看到我们这样相聚我感到无比的幸福,看到 我们 这样 相聚 感到 无比 幸福
+打印店关门才发现报告没打好，脑子里全是还没做完的事。,1,焦虑,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,打印店关门才发现报告没打好脑子里全是还没做完的事。,打印 店 关门 才 发现 报告 没 打 好 脑子里 全是 还 没 做 完 事
+我刚刚不小心打破了祖母留下的古董杯子……,0,难过,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=伤心; original_split=train; row=649,我刚刚不小心打破了祖母留下的古董杯子,刚刚 不 小心 打破 祖母 留下 古董 杯子
+我已经看不下去了，为什么每次都是我在忍受你的情绪，总是要我来安慰你，现在轮到我发火了！你到底为什么总是让我独自承担所有的压力？,2,生气,multi_emotion_dialogue,valid,zzhdbw/Simplified_Chinese_Multi-Emotion_Dialogue_Dataset; original_label=生气; original_split=train; row=3019,我已经看不下去了为什么每次都是我在忍受你的情绪总是要我来安慰你现在轮到我发火了你到底为什么总是让我独自承担所有的压力,已经 看不下去 为什么 每次 忍受 你 情绪 总是 要 来 安慰 你 现在 轮到 发火 你 到底 为什么 总是 让 独自 承担 所有 压力
+傍晚去操场慢走了三圈放松腿，算是平常校园里普通的一天。,3,平静,manual_balanced_augment,valid,balanced augment 200/class; deterministic template combo,傍晚去操场慢走了三圈放松腿算是平常校园里普通的一天。,傍晚 去 操场 慢走 三圈 放松 腿 算是 平常 校园 里 普通 一天
+看见别人的家人来送饭，我心里就一阵难过。,0,难过,manual_campus_sad,valid,campus diary sad / lonely sample (manual / template),看见别人的家人来送饭我心里就一阵难过。,看见 别人 家人 来 送饭 心里 一阵 难过

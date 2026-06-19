@@ -1,0 +1,911 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/b9bava",
+    "id": "b9bava",
+    "slide": 12,
+    "layoutId": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F2EA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "3",
+      "bbox": [
+        0,
+        708,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "4",
+      "name": "kicker-12-marker",
+      "bbox": [
+        62,
+        45,
+        7,
+        24
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "5",
+      "name": "kicker-12-label",
+      "bbox": [
+        78,
+        45,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "ERROR ANALYSIS",
+      "textPreview": "ERROR ANALYSIS",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR ANALYSIS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR ANALYSIS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR ANALYSIS",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "6",
+      "bbox": [
+        60,
+        82,
+        1040,
+        74
+      ],
+      "geometry": "rect",
+      "text": "误差不是随机崩溃，主要集中在情绪边界相近的类别之间。",
+      "textPreview": "误差不是随机崩溃，主要集中在情绪边界相近的类别之间。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "误差不是随机崩溃，主要集中在情绪边界相近的类别之间。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "误差不是随机崩溃，主要集中在情绪边界相近的类别之间。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "误差不是随机崩溃，主要集中在情绪边界相近的类别之间。",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qd4vmtwr",
+      "id": "7",
+      "bbox": [
+        62,
+        158,
+        455,
+        405
+      ],
+      "alt": "svm confusion matrix",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "e6841d3e-6436-44f2-9232-3f6f36b0b185",
+        "contentType": "image/png",
+        "byteLength": 57872
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xs72x4na",
+      "id": "8",
+      "bbox": [
+        555,
+        164,
+        410,
+        370
+      ],
+      "alt": "error pair heatmap",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "1fc4c2d2-f7c8-42b4-a022-f2853633d0aa",
+        "contentType": "image/png",
+        "byteLength": 51255
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "9",
+      "bbox": [
+        1000,
+        170,
+        185,
+        132
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "10",
+      "bbox": [
+        1000,
+        170,
+        5,
+        132
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "11",
+      "bbox": [
+        1018,
+        186,
+        149,
+        24
+      ],
+      "geometry": "rect",
+      "text": "主要边界",
+      "textPreview": "主要边界",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "主要边界"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "主要边界",
+          "runs": [
+            {
+              "index": 1,
+              "text": "主要边界",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "12",
+      "bbox": [
+        1018,
+        216,
+        149,
+        74
+      ],
+      "geometry": "rect",
+      "text": "难过 ↔ 平静\n生气 ↔ 焦虑\n开心 ↔ 平静",
+      "textPreview": "难过 ↔ 平静 | 生气 ↔ 焦虑 | 开心 ↔ 平静",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "难过 ↔ 平静"
+          },
+          {
+            "index": 2,
+            "text": "生气 ↔ 焦虑"
+          },
+          {
+            "index": 3,
+            "text": "开心 ↔ 平静"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "难过 ↔ 平静",
+          "runs": [
+            {
+              "index": 1,
+              "text": "难过 ↔ 平静",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "生气 ↔ 焦虑",
+          "runs": [
+            {
+              "index": 1,
+              "text": "生气 ↔ 焦虑",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "开心 ↔ 平静",
+          "runs": [
+            {
+              "index": 1,
+              "text": "开心 ↔ 平静",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "13",
+      "bbox": [
+        1000,
+        330,
+        185,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "14",
+      "bbox": [
+        1000,
+        330,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "15",
+      "bbox": [
+        1018,
+        346,
+        149,
+        24
+      ],
+      "geometry": "rect",
+      "text": "原因解释",
+      "textPreview": "原因解释",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "原因解释"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "原因解释",
+          "runs": [
+            {
+              "index": 1,
+              "text": "原因解释",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "16",
+      "bbox": [
+        1018,
+        376,
+        149,
+        92
+      ],
+      "geometry": "rect",
+      "text": "短日记常省略上下文；同一句可能同时包含压力、失落或平静叙述。词面信号不足时，线性模型会靠近相邻类别。",
+      "textPreview": "短日记常省略上下文；同一句可能同时包含压力、失落或平静叙述。词面信号不足时，线性模型会靠近相邻类别。",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "短日记常省略上下文；同一句可"
+          },
+          {
+            "index": 2,
+            "text": "能同时包含压力、失落或平静叙"
+          },
+          {
+            "index": 3,
+            "text": "述。词面信号不足时，线性模型"
+          },
+          {
+            "index": 4,
+            "text": "会靠近相邻类别。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "短日记常省略上下文；同一句可能同时包含压力、失落或平静叙述。词面信号不足时，线性模型会靠近相邻类别。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "短日记常省略上下文；同一句可能同时包含压力、失落或平静叙述。词面信号不足时，线性模型会靠近相邻类别。",
+              "fontSize": 10.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "17",
+      "bbox": [
+        85,
+        594,
+        7,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "18",
+      "bbox": [
+        103,
+        590,
+        1012,
+        26
+      ],
+      "geometry": "rect",
+      "text": "焦虑类别 Recall 达 0.9821，说明校园焦虑样本补充有效。",
+      "textPreview": "焦虑类别 Recall 达 0.9821，说明校园焦虑样本补充有效。",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "焦虑类别 Recall 达 0.9821，说明校园焦虑样本补充有效。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "焦虑类别 Recall 达 0.9821，说明校园焦虑样本补充有效。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "焦虑类别 Recall 达 0.9821，说明校园焦虑样本补充有效。",
+              "fontSize": 12,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "19",
+      "bbox": [
+        85,
+        620,
+        7,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "20",
+      "bbox": [
+        103,
+        616,
+        1012,
+        26
+      ],
+      "geometry": "rect",
+      "text": "开心与平静、难过与平静容易混淆，反映“情绪强度”比“情绪方向”更难区分。",
+      "textPreview": "开心与平静、难过与平静容易混淆，反映“情绪强度”比“情绪方向”更难区分。",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "开心与平静、难过与平静容易混淆，反映“情绪强度”比“情绪方向”更难区分。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "开心与平静、难过与平静容易混淆，反映“情绪强度”比“情绪方向”更难区分。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "开心与平静、难过与平静容易混淆，反映“情绪强度”比“情绪方向”更难区分。",
+              "fontSize": 12,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "21",
+      "bbox": [
+        85,
+        646,
+        7,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "22",
+      "bbox": [
+        103,
+        642,
+        1012,
+        26
+      ],
+      "geometry": "rect",
+      "text": "下一步应补充真实日记长文本、加入置信度阈值和人工复核机制。",
+      "textPreview": "下一步应补充真实日记长文本、加入置信度阈值和人工复核机制。",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下一步应补充真实日记长文本、加入置信度阈值和人工复核机制。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下一步应补充真实日记长文本、加入置信度阈值和人工复核机制。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "下一步应补充真实日记长文本、加入置信度阈值和人工复核机制。",
+              "fontSize": 12,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u54zido",
+      "id": "23",
+      "bbox": [
+        60,
+        682,
+        1020,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7D2C8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "24",
+      "bbox": [
+        60,
+        690,
+        820,
+        18
+      ],
+      "geometry": "rect",
+      "text": "证据：confusion_matrix_svm.png / svm_error_pair_heatmap.png / error_cases.csv",
+      "textPreview": "证据：confusion_matrix_svm.png / svm_error_pair_heatmap.png / error_cases.csv",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "证据：confusion_matrix_svm.png / svm_error_pair_heatmap.png / error_cases.csv"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "证据：confusion_matrix_svm.png / svm_error_pair_heatmap.png / error_cases.csv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "证据：confusion_matrix_svm.png / svm_error_pair_heatmap.png / error_cases.csv",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "25",
+      "bbox": [
+        1180,
+        684,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

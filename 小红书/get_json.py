@@ -1,5 +1,5 @@
 import requests
-
+#cURL(bash)复制
 cookies = {
     'abRequestId': 'a75eea56-b395-578e-96b3-9b3fdedf06ac',
     'xsecappid': 'xhs-pc-web',

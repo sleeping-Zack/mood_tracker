@@ -1,0 +1,6 @@
+PDF phase 1 requested a Git tag such as before-ml-upgrade.
+
+Tag creation was attempted, but the sandbox could not write to .git/refs/tags.
+Baseline commit before this ML preparation work:
+
+66f14e54943722acddd1cb3e04f176f92c1a3e07

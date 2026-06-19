@@ -23,3 +23,7 @@ ENV/
 
 # 其他
 *.bak
+
+# Large training checkpoints
+fine tuning/results/**/*.safetensors
+fine tuning/results/**/*.pt

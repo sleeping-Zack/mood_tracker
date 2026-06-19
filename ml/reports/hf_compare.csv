@@ -1,0 +1,4 @@
+﻿method,status,samples,accuracy,positive_f1,macro_f1,avg_ms_per_sample,depends_on_network,error
+huggingface_local_cache,skipped,50,,,,,no during script run; requires local model cache,"Failed to import transformers.pipelines because of the following error (look up to see its traceback):
+Failed to import transformers.generation.utils because of the following error (look up to see its traceback):
+cannot import name 'DEFAULT_CIPHERS' from 'urllib3.util.ssl_' (D:\my_django\Anaconda3\lib\site-packages\urllib3\util\ssl_.py)"

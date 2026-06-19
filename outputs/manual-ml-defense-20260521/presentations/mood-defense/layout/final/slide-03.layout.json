@@ -1,0 +1,1233 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ak61af",
+    "id": "ak61af",
+    "slide": 3,
+    "layoutId": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F2EA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "3",
+      "bbox": [
+        0,
+        708,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "4",
+      "name": "kicker-03-marker",
+      "bbox": [
+        62,
+        45,
+        7,
+        24
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "5",
+      "name": "kicker-03-label",
+      "bbox": [
+        78,
+        45,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "CONTRIBUTION SPINE",
+      "textPreview": "CONTRIBUTION SPINE",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CONTRIBUTION SPINE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CONTRIBUTION SPINE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "CONTRIBUTION SPINE",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "6",
+      "bbox": [
+        60,
+        82,
+        1080,
+        74
+      ],
+      "geometry": "rect",
+      "text": "本项目的贡献不是“调库跑模型”，而是把五分类任务做成可证明、可解释、可集成的工程闭环。",
+      "textPreview": "本项目的贡献不是“调库跑模型”，而是把五分类任务做成可证明、可解释、可集成的工程闭环。",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本项目的贡献不是“调库跑模型”，而是把五分类任务做成可证明、可解释、可集成"
+          },
+          {
+            "index": 2,
+            "text": "的工程闭环。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本项目的贡献不是“调库跑模型”，而是把五分类任务做成可证明、可解释、可集成的工程闭环。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "本项目的贡献不是“调库跑模型”，而是把五分类任务做成可证明、可解释、可集成的工程闭环。",
+              "fontSize": 29,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "7",
+      "bbox": [
+        70,
+        172,
+        250,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "8",
+      "bbox": [
+        70,
+        172,
+        5,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "9",
+      "bbox": [
+        88,
+        188,
+        214,
+        24
+      ],
+      "geometry": "rect",
+      "text": "贡献 1：任务升级",
+      "textPreview": "贡献 1：任务升级",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献 1：任务升级"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献 1：任务升级",
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献 1：任务升级",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "10",
+      "bbox": [
+        88,
+        218,
+        214,
+        97
+      ],
+      "geometry": "rect",
+      "text": "从原有粗粒度情感倾向升级为五分类情绪识别，单独补齐校园日记中高频但公开数据不足的“焦虑”类别。",
+      "textPreview": "从原有粗粒度情感倾向升级为五分类情绪识别，单独补齐校园日记中高频但公开数据不足的“焦虑”类别。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "从原有粗粒度情感倾向升级为五分类情"
+          },
+          {
+            "index": 2,
+            "text": "绪识别，单独补齐校园日记中高频但公"
+          },
+          {
+            "index": 3,
+            "text": "开数据不足的“焦虑”类别。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "从原有粗粒度情感倾向升级为五分类情绪识别，单独补齐校园日记中高频但公开数据不足的“焦虑”类别。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "从原有粗粒度情感倾向升级为五分类情绪识别，单独补齐校园日记中高频但公开数据不足的“焦虑”类别。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "11",
+      "bbox": [
+        350,
+        172,
+        250,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "12",
+      "bbox": [
+        350,
+        172,
+        5,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "13",
+      "bbox": [
+        368,
+        188,
+        214,
+        24
+      ],
+      "geometry": "rect",
+      "text": "贡献 2：可复现实验",
+      "textPreview": "贡献 2：可复现实验",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献 2：可复现实验"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献 2：可复现实验",
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献 2：可复现实验",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "14",
+      "bbox": [
+        368,
+        218,
+        214,
+        97
+      ],
+      "geometry": "rect",
+      "text": "明确数据来源、标签映射、分层切分、特征配置、模型选择规则，所有关键产物保存到 reports/artifacts。",
+      "textPreview": "明确数据来源、标签映射、分层切分、特征配置、模型选择规则，所有关键产物保存到 reports/artifacts。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "明确数据来源、标签映射、分层切分、"
+          },
+          {
+            "index": 2,
+            "text": "特征配置、模型选择规则，所有关键产"
+          },
+          {
+            "index": 3,
+            "text": "物保存到 reports/artifacts。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "明确数据来源、标签映射、分层切分、特征配置、模型选择规则，所有关键产物保存到 reports/artifacts。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "明确数据来源、标签映射、分层切分、特征配置、模型选择规则，所有关键产物保存到 reports/artifacts。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "15",
+      "bbox": [
+        630,
+        172,
+        250,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "16",
+      "bbox": [
+        630,
+        172,
+        5,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "17",
+      "bbox": [
+        648,
+        188,
+        214,
+        24
+      ],
+      "geometry": "rect",
+      "text": "贡献 3：可解释证据",
+      "textPreview": "贡献 3：可解释证据",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献 3：可解释证据"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献 3：可解释证据",
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献 3：可解释证据",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd0z6103",
+      "id": "18",
+      "bbox": [
+        648,
+        218,
+        214,
+        97
+      ],
+      "geometry": "rect",
+      "text": "展示标签分布、稀疏矩阵、Top TF-IDF 词、混淆矩阵和误分类对，证明模型行为可追溯。",
+      "textPreview": "展示标签分布、稀疏矩阵、Top TF-IDF 词、混淆矩阵和误分类对，证明模型行为可追溯。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "展示标签分布、稀疏矩阵、Top TF-IDF"
+          },
+          {
+            "index": 2,
+            "text": "词、混淆矩阵和误分类对，证明模型行"
+          },
+          {
+            "index": 3,
+            "text": "为可追溯。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "展示标签分布、稀疏矩阵、Top TF-IDF 词、混淆矩阵和误分类对，证明模型行为可追溯。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "展示标签分布、稀疏矩阵、Top TF-IDF 词、混淆矩阵和误分类对，证明模型行为可追溯。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "19",
+      "bbox": [
+        910,
+        172,
+        250,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "20",
+      "bbox": [
+        910,
+        172,
+        5,
+        155
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "21",
+      "bbox": [
+        928,
+        188,
+        214,
+        24
+      ],
+      "geometry": "rect",
+      "text": "贡献 4：系统落地",
+      "textPreview": "贡献 4：系统落地",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献 4：系统落地"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献 4：系统落地",
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献 4：系统落地",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "22",
+      "bbox": [
+        928,
+        218,
+        214,
+        97
+      ],
+      "geometry": "rect",
+      "text": "通过 ml/predict.py 接入 Django；预测结果写入 MoodEntry，并参与趋势图和页面建议展示。",
+      "textPreview": "通过 ml/predict.py 接入 Django；预测结果写入 MoodEntry，并参与趋势图和页面建议展示。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "通过 ml/predict.py 接入"
+          },
+          {
+            "index": 2,
+            "text": "Django；预测结果写入"
+          },
+          {
+            "index": 3,
+            "text": "MoodEntry，并参与趋势图和页面建议"
+          },
+          {
+            "index": 4,
+            "text": "展示。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "通过 ml/predict.py 接入 Django；预测结果写入 MoodEntry，并参与趋势图和页面建议展示。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "通过 ml/predict.py 接入 Django；预测结果写入 MoodEntry，并参与趋势图和页面建议展示。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "23",
+      "bbox": [
+        90,
+        395,
+        1030,
+        98
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "24",
+      "bbox": [
+        112,
+        414,
+        130,
+        22
+      ],
+      "geometry": "rect",
+      "text": "答辩逻辑链",
+      "textPreview": "答辩逻辑链",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "答辩逻辑链"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "答辩逻辑链",
+          "runs": [
+            {
+              "index": 1,
+              "text": "答辩逻辑链",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "25",
+      "bbox": [
+        245,
+        414,
+        820,
+        24
+      ],
+      "geometry": "rect",
+      "text": "问题约束 → 数据构建 → 预处理与特征 → 三模型验证 → 测试集确认 → 误差解释 → Django 集成 → 不足与改进",
+      "textPreview": "问题约束 → 数据构建 → 预处理与特征 → 三模型验证 → 测试集确认 → 误差解释 → Django 集成 → 不足与改进",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "问题约束 → 数据构建 → 预处理与特征 → 三模型验证 → 测试集确认 → 误差解释 → Django 集成 → 不足与改进"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "问题约束 → 数据构建 → 预处理与特征 → 三模型验证 → 测试集确认 → 误差解释 → Django 集成 → 不足与改进",
+          "runs": [
+            {
+              "index": 1,
+              "text": "问题约束 → 数据构建 → 预处理与特征 → 三模型验证 → 测试集确认 → 误差解释 → Django 集成 → 不足与改进",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#2F7D7A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "26",
+      "bbox": [
+        112,
+        452,
+        945,
+        26
+      ],
+      "geometry": "rect",
+      "text": "每个环节都对应一个可检查产物：CSV 数据、joblib 模型、PNG 图表、JSON 日志、Django 字段迁移和页面结果。",
+      "textPreview": "每个环节都对应一个可检查产物：CSV 数据、joblib 模型、PNG 图表、JSON 日志、Django 字段迁移和页面结果。",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "每个环节都对应一个可检查产物：CSV 数据、joblib 模型、PNG 图表、JSON 日志、Django 字段迁移和页面结果。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "每个环节都对应一个可检查产物：CSV 数据、joblib 模型、PNG 图表、JSON 日志、Django 字段迁移和页面结果。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "每个环节都对应一个可检查产物：CSV 数据、joblib 模型、PNG 图表、JSON 日志、Django 字段迁移和页面结果。",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "27",
+      "bbox": [
+        90,
+        535,
+        1030,
+        76
+      ],
+      "geometry": "rect",
+      "fillColor": "#DCEEEA",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "28",
+      "bbox": [
+        90,
+        535,
+        5,
+        76
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "29",
+      "bbox": [
+        108,
+        551,
+        994,
+        24
+      ],
+      "geometry": "rect",
+      "text": "最终主张",
+      "textPreview": "最终主张",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最终主张"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最终主张",
+          "runs": [
+            {
+              "index": 1,
+              "text": "最终主张",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "30",
+      "bbox": [
+        108,
+        581,
+        994,
+        18
+      ],
+      "geometry": "rect",
+      "text": "在当前样本规模和课程复现约束下，TF-IDF + LinearSVC 是一个比外部在线模型更稳定、比复杂深度模型更可控、比无监督聚类更适合上线的方案。",
+      "textPreview": "在当前样本规模和课程复现约束下，TF-IDF + LinearSVC 是一个比外部在线模型更稳定、比复杂深度模型更可控、比无监督聚类更适合上线的方案。",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "在当前样本规模和课程复现约束下，TF-IDF + LinearSVC 是一个比外部在线模型更稳定、比复杂深度模型更可控、比无监督聚类更适合上线的方案。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "在当前样本规模和课程复现约束下，TF-IDF + LinearSVC 是一个比外部在线模型更稳定、比复杂深度模型更可控、比无监督聚类更适合上线的方案。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "在当前样本规模和课程复现约束下，TF-IDF + LinearSVC 是一个比外部在线模型更稳定、比复杂深度模型更可控、比无监督聚类更适合上线的方案。",
+              "fontSize": 13.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "31",
+      "bbox": [
+        60,
+        682,
+        1020,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7D2C8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "32",
+      "bbox": [
+        60,
+        690,
+        820,
+        18
+      ],
+      "geometry": "rect",
+      "text": "证据链：README.md / report/*.md / ml/reports/*.csv,json,png / ml/artifacts/*.joblib",
+      "textPreview": "证据链：README.md / report/*.md / ml/reports/*.csv,json,png / ml/artifacts/*.joblib",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "证据链：README.md / report/*.md / ml/reports/*.csv,json,png / ml/artifacts/*.joblib"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "证据链：README.md / report/*.md / ml/reports/*.csv,json,png / ml/artifacts/*.joblib",
+          "runs": [
+            {
+              "index": 1,
+              "text": "证据链：README.md / report/*.md / ml/reports/*.csv,json,png / ml/artifacts/*.joblib",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "33",
+      "bbox": [
+        1180,
+        684,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,9 @@
+{
+  "best_model_key": "svm",
+  "best_model_name": "LinearSVC",
+  "selection_metric": "validation macro_f1 with ±0.005 tolerance; ties broken by preference LR > SVM > NB, then weighted_f1, accuracy",
+  "tie_tolerance": 0.005,
+  "top_macro_f1": 0.914219,
+  "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\svm_model.joblib",
+  "vectorizer_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\tfidf_vectorizer.joblib"
+}

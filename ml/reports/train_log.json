@@ -1,0 +1,87 @@
+{
+  "stage": "supervised_model_training",
+  "python_version": "3.9.13",
+  "sklearn_version": "1.0.2",
+  "train_csv": "D:\\py\\mydjango\\mood_tracker\\ml\\data\\processed\\train_segmented.csv",
+  "valid_csv": "D:\\py\\mydjango\\mood_tracker\\ml\\data\\processed\\valid_segmented.csv",
+  "vectorizer_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\tfidf_vectorizer.joblib",
+  "vectorizer_params": {
+    "max_features": 8000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.9
+  },
+  "x_train_shape": [
+    3436,
+    3439
+  ],
+  "x_valid_shape": [
+    429,
+    3439
+  ],
+  "models": {
+    "nb": {
+      "model_key": "nb",
+      "model_name": "MultinomialNB",
+      "feature_config": "TF-IDF unigram+bigram",
+      "train_samples": 3436,
+      "valid_samples": 429,
+      "feature_count": 3439,
+      "train_seconds": 0.001417,
+      "model_preference_rank": 3,
+      "accuracy": 0.892774,
+      "macro_f1": 0.893569,
+      "weighted_f1": 0.892048,
+      "macro_precision": 0.904647,
+      "macro_recall": 0.887995,
+      "predict_ms_per_sample": 0.000404,
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\nb_model.joblib"
+    },
+    "lr": {
+      "model_key": "lr",
+      "model_name": "LogisticRegression",
+      "feature_config": "TF-IDF unigram+bigram",
+      "train_samples": 3436,
+      "valid_samples": 429,
+      "feature_count": 3439,
+      "train_seconds": 0.196698,
+      "model_preference_rank": 1,
+      "accuracy": 0.902098,
+      "macro_f1": 0.903205,
+      "weighted_f1": 0.902076,
+      "macro_precision": 0.908647,
+      "macro_recall": 0.901011,
+      "predict_ms_per_sample": 0.00038,
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\lr_model.joblib"
+    },
+    "svm": {
+      "model_key": "svm",
+      "model_name": "LinearSVC",
+      "feature_config": "TF-IDF unigram+bigram",
+      "train_samples": 3436,
+      "valid_samples": 429,
+      "feature_count": 3439,
+      "train_seconds": 0.017789,
+      "model_preference_rank": 2,
+      "accuracy": 0.911422,
+      "macro_f1": 0.914219,
+      "weighted_f1": 0.911352,
+      "macro_precision": 0.916806,
+      "macro_recall": 0.912811,
+      "predict_ms_per_sample": 0.000386,
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\svm_model.joblib"
+    }
+  },
+  "best_model": {
+    "best_model_key": "svm",
+    "best_model_name": "LinearSVC",
+    "selection_metric": "validation macro_f1 with ±0.005 tolerance; ties broken by preference LR > SVM > NB, then weighted_f1, accuracy",
+    "tie_tolerance": 0.005,
+    "top_macro_f1": 0.914219,
+    "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\svm_model.joblib",
+    "vectorizer_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\tfidf_vectorizer.joblib"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "stage": "test_set_evaluation",
+  "test_csv": "D:\\py\\mydjango\\mood_tracker\\ml\\data\\processed\\test_segmented.csv",
+  "vectorizer_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\tfidf_vectorizer.joblib",
+  "x_test_shape": [
+    430,
+    3439
+  ],
+  "models": {
+    "nb": {
+      "model_key": "nb",
+      "model_name": "MultinomialNB",
+      "feature_config": "TF-IDF unigram+bigram",
+      "test_samples": 430,
+      "feature_count": 3439,
+      "model_preference_rank": 3,
+      "accuracy": 0.897674,
+      "macro_f1": 0.90254,
+      "weighted_f1": 0.897995,
+      "macro_precision": 0.910472,
+      "macro_recall": 0.897996,
+      "predict_ms_per_sample": 0.000491,
+      "confusion_matrix": [
+        [
+          73,
+          0,
+          4,
+          9,
+          1
+        ],
+        [
+          2,
+          53,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          109,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          6,
+          83,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          4,
+          68
+        ]
+      ],
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\nb_model.joblib",
+      "confusion_matrix_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\confusion_matrix_nb.png",
+      "classification_report": {
+        "难过": {
+          "precision": 0.9358974358974359,
+          "recall": 0.8390804597701149,
+          "f1-score": 0.8848484848484849,
+          "support": 87
+        },
+        "焦虑": {
+          "precision": 0.9636363636363636,
+          "recall": 0.9464285714285714,
+          "f1-score": 0.9549549549549549,
+          "support": 56
+        },
+        "生气": {
+          "precision": 0.8650793650793651,
+          "recall": 0.9316239316239316,
+          "f1-score": 0.897119341563786,
+          "support": 117
+        },
+        "平静": {
+          "precision": 0.83,
+          "recall": 0.9120879120879121,
+          "f1-score": 0.869109947643979,
+          "support": 91
+        },
+        "开心": {
+          "precision": 0.9577464788732394,
+          "recall": 0.8607594936708861,
+          "f1-score": 0.9066666666666667,
+          "support": 79
+        },
+        "accuracy": 0.8976744186046511,
+        "macro avg": {
+          "precision": 0.9104719286972808,
+          "recall": 0.8979960737162832,
+          "f1-score": 0.9025398791355744,
+          "support": 430
+        },
+        "weighted avg": {
+          "precision": 0.9018441182139184,
+          "recall": 0.8976744186046511,
+          "f1-score": 0.8979951872663428,
+          "support": 430
+        }
+      }
+    },
+    "lr": {
+      "model_key": "lr",
+      "model_name": "LogisticRegression",
+      "feature_config": "TF-IDF unigram+bigram",
+      "test_samples": 430,
+      "feature_count": 3439,
+      "model_preference_rank": 1,
+      "accuracy": 0.897674,
+      "macro_f1": 0.900042,
+      "weighted_f1": 0.897751,
+      "macro_precision": 0.901805,
+      "macro_recall": 0.899408,
+      "predict_ms_per_sample": 0.000451,
+      "confusion_matrix": [
+        [
+          74,
+          0,
+          4,
+          7,
+          2
+        ],
+        [
+          3,
+          53,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          107,
+          2,
+          4
+        ],
+        [
+          3,
+          0,
+          3,
+          83,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          7,
+          69
+        ]
+      ],
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\lr_model.joblib",
+      "confusion_matrix_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\confusion_matrix_lr.png",
+      "classification_report": {
+        "难过": {
+          "precision": 0.9135802469135802,
+          "recall": 0.8505747126436781,
+          "f1-score": 0.8809523809523809,
+          "support": 87
+        },
+        "焦虑": {
+          "precision": 0.9464285714285714,
+          "recall": 0.9464285714285714,
+          "f1-score": 0.9464285714285714,
+          "support": 56
+        },
+        "生气": {
+          "precision": 0.9145299145299145,
+          "recall": 0.9145299145299145,
+          "f1-score": 0.9145299145299145,
+          "support": 117
+        },
+        "平静": {
+          "precision": 0.8383838383838383,
+          "recall": 0.9120879120879121,
+          "f1-score": 0.8736842105263157,
+          "support": 91
+        },
+        "开心": {
+          "precision": 0.8961038961038961,
+          "recall": 0.8734177215189873,
+          "f1-score": 0.8846153846153846,
+          "support": 79
+        },
+        "accuracy": 0.8976744186046511,
+        "macro avg": {
+          "precision": 0.90180529347196,
+          "recall": 0.8994077664418126,
+          "f1-score": 0.9000420924105136,
+          "support": 430
+        },
+        "weighted avg": {
+          "precision": 0.8989921362014385,
+          "recall": 0.8976744186046511,
+          "f1-score": 0.8977505481055053,
+          "support": 430
+        }
+      }
+    },
+    "svm": {
+      "model_key": "svm",
+      "model_name": "LinearSVC",
+      "feature_config": "TF-IDF unigram+bigram",
+      "test_samples": 430,
+      "feature_count": 3439,
+      "model_preference_rank": 2,
+      "accuracy": 0.918605,
+      "macro_f1": 0.920835,
+      "weighted_f1": 0.918439,
+      "macro_precision": 0.921464,
+      "macro_recall": 0.921262,
+      "predict_ms_per_sample": 0.000368,
+      "confusion_matrix": [
+        [
+          77,
+          0,
+          3,
+          6,
+          1
+        ],
+        [
+          0,
+          55,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          109,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          85,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          4,
+          69
+        ]
+      ],
+      "model_path": "D:\\py\\mydjango\\mood_tracker\\ml\\artifacts\\svm_model.joblib",
+      "confusion_matrix_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\confusion_matrix_svm.png",
+      "classification_report": {
+        "难过": {
+          "precision": 0.9390243902439024,
+          "recall": 0.8850574712643678,
+          "f1-score": 0.911242603550296,
+          "support": 87
+        },
+        "焦虑": {
+          "precision": 0.9482758620689655,
+          "recall": 0.9821428571428571,
+          "f1-score": 0.9649122807017544,
+          "support": 56
+        },
+        "生气": {
+          "precision": 0.923728813559322,
+          "recall": 0.9316239316239316,
+          "f1-score": 0.9276595744680851,
+          "support": 117
+        },
+        "平静": {
+          "precision": 0.8762886597938144,
+          "recall": 0.9340659340659341,
+          "f1-score": 0.9042553191489361,
+          "support": 91
+        },
+        "开心": {
+          "precision": 0.92,
+          "recall": 0.8734177215189873,
+          "f1-score": 0.896103896103896,
+          "support": 79
+        },
+        "accuracy": 0.9186046511627907,
+        "macro avg": {
+          "precision": 0.921463545133201,
+          "recall": 0.9212615831232156,
+          "f1-score": 0.9208347347945935,
+          "support": 430
+        },
+        "weighted avg": {
+          "precision": 0.9192956033831612,
+          "recall": 0.9186046511627907,
+          "f1-score": 0.9184390843620951,
+          "support": 430
+        }
+      }
+    }
+  },
+  "test_model_compare_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\test_model_compare.csv",
+  "model_compare_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\model_compare.csv",
+  "f1_bar_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\f1_bar.png",
+  "error_cases_csv_path": "D:\\py\\mydjango\\mood_tracker\\ml\\reports\\error_cases.csv",
+  "error_case_count": 123
+}

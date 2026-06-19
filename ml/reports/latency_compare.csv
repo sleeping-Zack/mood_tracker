@@ -1,0 +1,3 @@
+﻿method,samples,avg_ms_per_sample,depends_on_network
+local_lr,789,0.000167,no
+huggingface_local_cache,50,,no during script run; requires local model cache

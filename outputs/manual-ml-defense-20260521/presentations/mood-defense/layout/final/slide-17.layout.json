@@ -1,0 +1,1329 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/rpshca",
+    "id": "rpshca",
+    "slide": 17,
+    "layoutId": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9b989db5-f16a-45da-99ef-b776fb5d1aaf",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7f376e16-e0ed-4629-a6ec-c0dc892c35ca",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F2EA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "3",
+      "bbox": [
+        0,
+        708,
+        1280,
+        12
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ed8bat",
+      "id": "4",
+      "name": "kicker-17-marker",
+      "bbox": [
+        62,
+        45,
+        7,
+        24
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs72x4na",
+      "id": "5",
+      "name": "kicker-17-label",
+      "bbox": [
+        78,
+        45,
+        520,
+        24
+      ],
+      "geometry": "rect",
+      "text": "LIMITATIONS AND FUTURE WORK",
+      "textPreview": "LIMITATIONS AND FUTURE WORK",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LIMITATIONS AND FUTURE WORK"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LIMITATIONS AND FUTURE WORK",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LIMITATIONS AND FUTURE WORK",
+              "fontSize": 11,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1orytsv",
+      "id": "6",
+      "bbox": [
+        60,
+        82,
+        1060,
+        74
+      ],
+      "geometry": "rect",
+      "text": "不足与改进路径必须讲清楚：当前系统可靠，但还不是面向真实大规模用户的最终模型。",
+      "textPreview": "不足与改进路径必须讲清楚：当前系统可靠，但还不是面向真实大规模用户的最终模型。",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不足与改进路径必须讲清楚：当前系统可靠，但还不是面向真实大规模用户的最"
+          },
+          {
+            "index": 2,
+            "text": "终模型。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不足与改进路径必须讲清楚：当前系统可靠，但还不是面向真实大规模用户的最终模型。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "不足与改进路径必须讲清楚：当前系统可靠，但还不是面向真实大规模用户的最终模型。",
+              "fontSize": 30,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmlkjm1c",
+      "id": "7",
+      "bbox": [
+        78,
+        170,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "8",
+      "bbox": [
+        78,
+        170,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "9",
+      "bbox": [
+        96,
+        186,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "局限 1：数据来源仍偏小",
+      "textPreview": "局限 1：数据来源仍偏小",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "局限 1：数据来源仍偏小"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "局限 1：数据来源仍偏小",
+          "runs": [
+            {
+              "index": 1,
+              "text": "局限 1：数据来源仍偏小",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "10",
+      "bbox": [
+        96,
+        216,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "公开多情绪语料与人工校园样本能支撑课程验证，但真实日记表达更私密、长短不一、情绪混合更明显。",
+      "textPreview": "公开多情绪语料与人工校园样本能支撑课程验证，但真实日记表达更私密、长短不一、情绪混合更明显。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "公开多情绪语料与人工校园样本能支撑课程验证，但真"
+          },
+          {
+            "index": 2,
+            "text": "实日记表达更私密、长短不一、情绪混合更明显。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "公开多情绪语料与人工校园样本能支撑课程验证，但真实日记表达更私密、长短不一、情绪混合更明显。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "公开多情绪语料与人工校园样本能支撑课程验证，但真实日记表达更私密、长短不一、情绪混合更明显。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "11",
+      "bbox": [
+        455,
+        170,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "12",
+      "bbox": [
+        455,
+        170,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "13",
+      "bbox": [
+        473,
+        186,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "局限 2：边界情绪仍会混淆",
+      "textPreview": "局限 2：边界情绪仍会混淆",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "局限 2：边界情绪仍会混淆"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "局限 2：边界情绪仍会混淆",
+          "runs": [
+            {
+              "index": 1,
+              "text": "局限 2：边界情绪仍会混淆",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "14",
+      "bbox": [
+        473,
+        216,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "开心/平静、难过/平静、生气/焦虑在短句中常共享词面信号，需要更多上下文和强度建模。",
+      "textPreview": "开心/平静、难过/平静、生气/焦虑在短句中常共享词面信号，需要更多上下文和强度建模。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "开心/平静、难过/平静、生气/焦虑在短句中常共享词"
+          },
+          {
+            "index": 2,
+            "text": "面信号，需要更多上下文和强度建模。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "开心/平静、难过/平静、生气/焦虑在短句中常共享词面信号，需要更多上下文和强度建模。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "开心/平静、难过/平静、生气/焦虑在短句中常共享词面信号，需要更多上下文和强度建模。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "15",
+      "bbox": [
+        832,
+        170,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "16",
+      "bbox": [
+        832,
+        170,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "17",
+      "bbox": [
+        850,
+        186,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "局限 3：置信度解释有限",
+      "textPreview": "局限 3：置信度解释有限",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "局限 3：置信度解释有限"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "局限 3：置信度解释有限",
+          "runs": [
+            {
+              "index": 1,
+              "text": "局限 3：置信度解释有限",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "18",
+      "bbox": [
+        850,
+        216,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "LinearSVC 决策函数可排序，但不是天然概率；若用于真实用户建议，需要阈值、校准和人工兜底。",
+      "textPreview": "LinearSVC 决策函数可排序，但不是天然概率；若用于真实用户建议，需要阈值、校准和人工兜底。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LinearSVC"
+          },
+          {
+            "index": 2,
+            "text": "决策函数可排序，但不是天然概率；若用于真实用户建"
+          },
+          {
+            "index": 3,
+            "text": "议，需要阈值、校准和人工兜底。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LinearSVC 决策函数可排序，但不是天然概率；若用于真实用户建议，需要阈值、校准和人工兜底。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LinearSVC 决策函数可排序，但不是天然概率；若用于真实用户建议，需要阈值、校准和人工兜底。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "19",
+      "bbox": [
+        78,
+        370,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#DCEEEA",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "20",
+      "bbox": [
+        78,
+        370,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D7A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "21",
+      "bbox": [
+        96,
+        386,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "改进 1：数据层",
+      "textPreview": "改进 1：数据层",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "改进 1：数据层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "改进 1：数据层",
+          "runs": [
+            {
+              "index": 1,
+              "text": "改进 1：数据层",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "22",
+      "bbox": [
+        96,
+        416,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "收集匿名真实日记，扩展焦虑/平静/开心边界样本；建立主动学习流程，让误分类样本反哺训练集。",
+      "textPreview": "收集匿名真实日记，扩展焦虑/平静/开心边界样本；建立主动学习流程，让误分类样本反哺训练集。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "收集匿名真实日记，扩展焦虑/平静/开心边界样本；建"
+          },
+          {
+            "index": 2,
+            "text": "立主动学习流程，让误分类样本反哺训练集。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "收集匿名真实日记，扩展焦虑/平静/开心边界样本；建立主动学习流程，让误分类样本反哺训练集。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "收集匿名真实日记，扩展焦虑/平静/开心边界样本；建立主动学习流程，让误分类样本反哺训练集。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "23",
+      "bbox": [
+        455,
+        370,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8DFD4",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "24",
+      "bbox": [
+        455,
+        370,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "25",
+      "bbox": [
+        473,
+        386,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "改进 2：模型层",
+      "textPreview": "改进 2：模型层",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "改进 2：模型层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "改进 2：模型层",
+          "runs": [
+            {
+              "index": 1,
+              "text": "改进 2：模型层",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "26",
+      "bbox": [
+        473,
+        416,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "在传统模型上加入概率校准和阈值拒识；进一步比较 LinearSVC、LR、轻量中文预训练模型的成本收益。",
+      "textPreview": "在传统模型上加入概率校准和阈值拒识；进一步比较 LinearSVC、LR、轻量中文预训练模型的成本收益。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "在传统模型上加入概率校准和阈值拒识；进一步比较"
+          },
+          {
+            "index": 2,
+            "text": "LinearSVC、LR、轻量中文预训练模型的成本收益。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "在传统模型上加入概率校准和阈值拒识；进一步比较 LinearSVC、LR、轻量中文预训练模型的成本收益。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "在传统模型上加入概率校准和阈值拒识；进一步比较 LinearSVC、LR、轻量中文预训练模型的成本收益。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "27",
+      "bbox": [
+        832,
+        370,
+        330,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#EFE6D2",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "28",
+      "bbox": [
+        832,
+        370,
+        5,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9A15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "29",
+      "bbox": [
+        850,
+        386,
+        294,
+        24
+      ],
+      "geometry": "rect",
+      "text": "改进 3：系统层",
+      "textPreview": "改进 3：系统层",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "改进 3：系统层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "改进 3：系统层",
+          "runs": [
+            {
+              "index": 1,
+              "text": "改进 3：系统层",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "30",
+      "bbox": [
+        850,
+        416,
+        294,
+        92
+      ],
+      "geometry": "rect",
+      "text": "为 Django 增加模型版本字段、预测日志、用户反馈入口和可视化误差面板，形成长期迭代闭环。",
+      "textPreview": "为 Django 增加模型版本字段、预测日志、用户反馈入口和可视化误差面板，形成长期迭代闭环。",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "fontSize": 12.2,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "为 Django"
+          },
+          {
+            "index": 2,
+            "text": "增加模型版本字段、预测日志、用户反馈入口和可视化"
+          },
+          {
+            "index": 3,
+            "text": "误差面板，形成长期迭代闭环。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "为 Django 增加模型版本字段、预测日志、用户反馈入口和可视化误差面板，形成长期迭代闭环。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "为 Django 增加模型版本字段、预测日志、用户反馈入口和可视化误差面板，形成长期迭代闭环。",
+              "fontSize": 12.2,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "31",
+      "bbox": [
+        78,
+        575,
+        1084,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8F0F4",
+      "lineColor": "#D7D2C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "32",
+      "bbox": [
+        78,
+        575,
+        5,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#16324F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "33",
+      "bbox": [
+        96,
+        587,
+        130,
+        30
+      ],
+      "geometry": "rect",
+      "text": "答辩口径",
+      "textPreview": "答辩口径",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "答辩口径"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "答辩口径",
+          "runs": [
+            {
+              "index": 1,
+              "text": "答辩口径",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "34",
+      "bbox": [
+        244,
+        587,
+        900,
+        32
+      ],
+      "geometry": "rect",
+      "text": "承认局限不是削弱项目，而是说明当前结论的适用边界：课堂级、离线、可复现、可解释的五分类情绪日记系统已经成立。",
+      "textPreview": "承认局限不是削弱项目，而是说明当前结论的适用边界：课堂级、离线、可复现、可解释的五分类情绪日记系统已经成立。",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "承认局限不是削弱项目，而是说明当前结论的适用边界：课堂级、离线、可复现、可解释的五分类情绪日记系统已经成立。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "承认局限不是削弱项目，而是说明当前结论的适用边界：课堂级、离线、可复现、可解释的五分类情绪日记系统已经成立。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "承认局限不是削弱项目，而是说明当前结论的适用边界：课堂级、离线、可复现、可解释的五分类情绪日记系统已经成立。",
+              "fontSize": 12.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "35",
+      "bbox": [
+        60,
+        682,
+        1020,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7D2C8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "36",
+      "bbox": [
+        60,
+        690,
+        820,
+        18
+      ],
+      "geometry": "rect",
+      "text": "证据：error_cases.csv / svm_error_pair_heatmap.png / django_integration_summary.md",
+      "textPreview": "证据：error_cases.csv / svm_error_pair_heatmap.png / django_integration_summary.md",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Microsoft YaHei",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "证据：error_cases.csv / svm_error_pair_heatmap.png / django_integration_summary.md"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "证据：error_cases.csv / svm_error_pair_heatmap.png / django_integration_summary.md",
+          "runs": [
+            {
+              "index": 1,
+              "text": "证据：error_cases.csv / svm_error_pair_heatmap.png / django_integration_summary.md",
+              "fontSize": 8.51,
+              "typeface": "Microsoft YaHei",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "37",
+      "bbox": [
+        1180,
+        684,
+        42,
+        22
+      ],
+      "geometry": "rect",
+      "text": "17",
+      "textPreview": "17",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Microsoft YaHei",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17",
+          "runs": [
+            {
+              "index": 1,
+              "text": "17",
+              "fontSize": 13,
+              "typeface": "Microsoft YaHei",
+              "color": "#172331",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
